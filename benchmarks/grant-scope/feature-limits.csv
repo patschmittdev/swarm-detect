@@ -1,0 +1,5 @@
+view,detector,runs,positives,small_positives,controls,false_budget,unique_patterns,mixed_patterns,mixed_runs,mixed_positives,mixed_small_positives,mixed_controls,max_small_true_positives,max_true_positives,min_errors
+overlap,logistic,3780,1620,540,2160,108,2125,34,109,73,53,36,540,1620,35
+overlap,logistic+verified-grant,3780,1620,540,2160,108,2170,31,87,54,52,33,540,1620,32
+native,logistic,3780,1620,540,2160,108,1548,50,243,186,145,57,540,1620,53
+native,logistic+verified-grant,3780,1620,540,2160,108,1567,48,204,150,143,54,540,1620,50

@@ -1,0 +1,10 @@
+family,run_class,runs,fallback_runs,no_safe_interleave_runs,empty_assignment_runs,runs_with_shared_documents,runs_with_shared_read_before_component_end,runs_with_office_read_before_native_end,runs_with_unknown_reads,runs_with_missing_decisions,shared_verified_documents,shared_reads_before_component_end,office_reads_before_native_end,office_tickets,exercised_office_tickets,assignment_count,unknown_reads,missing_decisions,office_tickets_min,office_tickets_max,exercised_office_tickets_min,exercised_office_tickets_max,assignment_count_min,assignment_count_max
+record_check,positive,810,0,0,0,810,810,810,0,0,1620,1666,1689,6535,6535,11926,0,0,3,15,3,15,5,29
+record_check,control,1080,0,0,0,1080,1080,1080,0,0,2160,2206,2235,8638,8638,15873,0,0,3,15,3,15,5,30
+record_check,all,1890,0,0,0,1890,1890,1890,0,0,3780,3872,3924,15173,15173,27799,0,0,3,15,3,15,5,30
+clerical_handoff,positive,810,0,0,0,810,810,810,0,0,1620,2449,2452,6500,6500,11894,0,0,3,15,3,15,5,30
+clerical_handoff,control,1080,0,0,0,1080,1080,1080,0,0,2160,3285,3290,8690,8690,15927,0,0,3,15,3,15,5,30
+clerical_handoff,all,1890,0,0,0,1890,1890,1890,0,0,3780,5734,5742,15190,15190,27821,0,0,3,15,3,15,5,30
+pooled,positive,1620,0,0,0,1620,1620,1620,0,0,3240,4115,4141,13035,13035,23820,0,0,3,15,3,15,5,30
+pooled,control,2160,0,0,0,2160,2160,2160,0,0,4320,5491,5525,17328,17328,31800,0,0,3,15,3,15,5,30
+pooled,all,3780,0,0,0,3780,3780,3780,0,0,7560,9606,9666,30363,30363,55620,0,0,3,15,3,15,5,30

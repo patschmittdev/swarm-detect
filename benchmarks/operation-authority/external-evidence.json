@@ -1,0 +1,84 @@
+{
+  "common_endpoint": {
+    "cases_with_operation_time_approval_consumed_document_and_human_motive": 0,
+    "independent_swarm_accuracy_rounds": 0,
+    "reason": "Ticket-service cases have constructed actions and no human motive judgments. Human sample IDs identify grading conversations or reflections with no corresponding ticket-service or document-use record."
+  },
+  "human_signals": {
+    "agreement": {
+      "agree": 100,
+      "disagree": 0,
+      "distinct_run_episode_pairs": 100,
+      "gold_no": 66,
+      "gold_yes": 34,
+      "paired_samples": 100,
+      "upstream_judge_matches_gold": 100
+    },
+    "relaxation": {
+      "agree": 92,
+      "disagree": 8,
+      "distinct_run_episode_pairs": 100,
+      "gold_no": 50,
+      "gold_yes": 50,
+      "paired_samples": 100,
+      "upstream_judge_matches_gold": 95
+    }
+  },
+  "policy": {
+    "attempts": {
+      "applied": 23,
+      "recorded": 25,
+      "refused_failed_unconsumed": 1,
+      "refused_failed_unexpired": 1,
+      "valid_reservation_consumed_after_source_lost": 4
+    },
+    "field_coverage": {
+      "observed_ticket_version_matches_precommit": 28,
+      "rows_with_sink_attempts": 24,
+      "ticket_operation_with_observed_version_and_approval_epoch": 28
+    },
+    "outcome_labels": {
+      "A": "authorized applied",
+      "S": "safe non-completion",
+      "U": "unauthorized applied"
+    },
+    "rows": 28,
+    "service_outcomes_by_group": {
+      "harness_check": {
+        "A": 10,
+        "S": 4,
+        "U": 6
+      },
+      "main": {
+        "A": 1,
+        "U": 4
+      },
+      "window_probe": {
+        "A": 2,
+        "S": 1
+      }
+    }
+  },
+  "sources": {
+    "human_annotations.parquet": {
+      "bytes": 9697,
+      "sha256": "5d1eddecd79e3a22301fdd468c82298070328950aad4a3cef478e60019141611",
+      "url": "https://huggingface.co/datasets/SALT-NLP/agent-collusion/resolve/2eba8f3771e8fbcc0f49f6cbbfd2111b939a117a/data/human_annotations.parquet"
+    },
+    "human_answers.parquet": {
+      "bytes": 3519,
+      "sha256": "d51a2f92195d518973c71c13e3328ad28d466751a24fa7363850db9e3fd5ab33",
+      "url": "https://huggingface.co/datasets/SALT-NLP/agent-collusion/resolve/2eba8f3771e8fbcc0f49f6cbbfd2111b939a117a/data/human_answers.parquet"
+    },
+    "human_samples.parquet": {
+      "bytes": 119113,
+      "sha256": "c36b3a8011d4ac8665d55d0e4676d6e1508170c1d973b05ea83f8c143912ff70",
+      "url": "https://huggingface.co/datasets/SALT-NLP/agent-collusion/resolve/2eba8f3771e8fbcc0f49f6cbbfd2111b939a117a/data/human_samples.parquet"
+    },
+    "revocation-after-issuance-v1.json": {
+      "bytes": 104984,
+      "sha256": "eb860c29c48d324d02f9d8a4698bf560c9f9b6add7e410080c6a3d4c4cc9bf54",
+      "url": "https://anonymous.4open.science/api/repo/commit-time-authorization/file/studies/local-specificity-v1/evidence/revocation-after-issuance-v1.json"
+    }
+  }
+}

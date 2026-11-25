@@ -1,0 +1,78 @@
+{
+  "agents": 3,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "swarm_peers",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:15:47+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 73.98,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "owners",
+      "usage": {
+        "cache_creation_input_tokens": 30376,
+        "cache_read_input_tokens": 1043147,
+        "input_tokens": 60,
+        "num_turns": 38,
+        "output_tokens": 7178,
+        "total_cost_usd": 0.2977187
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 187.58,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "owners",
+      "usage": {
+        "total_tokens": 46479
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 55.02,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "owners",
+      "usage": {
+        "cache_creation_input_tokens": 30429,
+        "cache_read_input_tokens": 578737,
+        "input_tokens": 38,
+        "num_turns": 50,
+        "output_tokens": 6900,
+        "total_cost_usd": 0.24866569999999996
+      }
+    }
+  ],
+  "run_id": "test-08",
+  "runner_versions": {
+    "claude": "2.1.331",
+    "codex": "0.172.0"
+  },
+  "seed": 2654674230,
+  "service_seed": 602821300,
+  "started_utc": "2026-11-24T18:12:37+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

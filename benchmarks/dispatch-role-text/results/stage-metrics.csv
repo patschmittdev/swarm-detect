@@ -1,0 +1,13 @@
+split,target,method,stages,scorable,exact_role_sets,stages_with_abstention,stages_with_absent_role,stages_with_false_designation,any_false_designation_95pct_upper
+integration,stage,parser,77,77,77,0,77,0,0.038158510712
+integration,stage,deberta,77,77,8,69,77,0,0.038158510712
+integration,document,parser,77,77,77,0,77,0,0.038158510712
+integration,document,deberta,77,77,8,69,77,0,0.038158510712
+confirmation,stage,parser,58,58,58,0,58,0,0.05033933833
+confirmation,stage,deberta,58,58,7,51,58,1,0.0791978105
+confirmation,document,parser,58,58,58,0,58,0,0.05033933833
+confirmation,document,deberta,58,58,7,51,58,1,0.0791978105
+all,stage,parser,135,135,135,0,135,0,0.021946208996
+all,stage,deberta,135,135,15,120,135,1,0.034656224715
+all,document,parser,135,135,135,0,135,0,0.021946208996
+all,document,deberta,135,135,15,120,135,1,0.034656224715

@@ -1,0 +1,85 @@
+{
+  "agents": 3,
+  "background": true,
+  "batch_parallel": 3,
+  "condition": "independent",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:20:32+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 85.92,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "actions",
+      "usage": {
+        "total_tokens": 41627
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 43.91,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "vendors",
+      "usage": {
+        "cache_creation_input_tokens": 45812,
+        "cache_read_input_tokens": 391014,
+        "input_tokens": 26,
+        "num_turns": 14,
+        "output_tokens": 5305,
+        "total_cost_usd": 0.2754514
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 105.8,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "risk-register",
+      "usage": {
+        "total_tokens": 26761
+      }
+    },
+    {
+      "client": "browsing_users",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 3,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    }
+  ],
+  "run_id": "test-15",
+  "runner_versions": {
+    "claude": "2.1.331",
+    "codex": "0.172.0"
+  },
+  "seed": 3057270212,
+  "service_seed": 853479183,
+  "started_utc": "2026-11-24T18:18:01+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

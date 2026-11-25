@@ -1,0 +1,79 @@
+{
+  "agents": 3,
+  "background": true,
+  "batch_parallel": 3,
+  "condition": "swarm_peers",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:14:55+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 167.72,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "cross-refs",
+      "usage": {
+        "total_tokens": 34952
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 153.55,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "cross-refs",
+      "usage": {
+        "total_tokens": 63437
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 156.0,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "cross-refs",
+      "usage": {
+        "total_tokens": 34109
+      }
+    },
+    {
+      "client": "browsing_users",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 3,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    }
+  ],
+  "run_id": "test-07",
+  "runner_versions": {
+    "codex": "0.172.0"
+  },
+  "seed": 3389573833,
+  "service_seed": 1051685449,
+  "started_utc": "2026-11-24T18:12:07+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

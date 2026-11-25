@@ -1,0 +1,93 @@
+{
+  "agents": 4,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "swarm_peers",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:16:36+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 78.64,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "vendors",
+      "usage": {
+        "total_tokens": 23979
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 61.58,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "vendors",
+      "usage": {
+        "cache_creation_input_tokens": 40619,
+        "cache_read_input_tokens": 559374,
+        "input_tokens": 32,
+        "num_turns": 19,
+        "output_tokens": 7412,
+        "total_cost_usd": 0.2925974
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 95.16,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "vendors",
+      "usage": {
+        "total_tokens": 30838
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 60.08,
+      "exit_code": 0,
+      "index": 3,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "vendors",
+      "usage": {
+        "cache_creation_input_tokens": 29328,
+        "cache_read_input_tokens": 538120,
+        "input_tokens": 36,
+        "num_turns": 46,
+        "output_tokens": 7643,
+        "total_cost_usd": 0.247626
+      }
+    }
+  ],
+  "run_id": "test-10",
+  "runner_versions": {
+    "claude": "2.1.331",
+    "codex": "0.172.0"
+  },
+  "seed": 2562885885,
+  "service_seed": 547194281,
+  "started_utc": "2026-11-24T18:14:56+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

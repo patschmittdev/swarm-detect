@@ -1,0 +1,11 @@
+layout,variant,controls,minimum_false_alerts,minimum_false_alert_rate
+two_issuers,all,2160,528,0.24444444444444444
+two_issuers,routine,549,0,0.0
+two_issuers,approved_exception,524,0,0.0
+two_issuers,mistake,528,528,1.0
+two_issuers,unbound,559,0,0.0
+same_issuer,all,2160,518,0.23981481481481481
+same_issuer,routine,547,0,0.0
+same_issuer,approved_exception,517,0,0.0
+same_issuer,mistake,518,518,1.0
+same_issuer,unbound,578,0,0.0

@@ -1,0 +1,29 @@
+{
+  "inputs_sha256": {
+    "predictions.csv": "0c9d5a8eaade830038d6dc18c6ce770ed5638284dbd9d7ba8ba847c218e25d41",
+    "protocol.json": "603974e2878d072ab4d139f17d6a6613fba7af749b65db5cbbd6e25759e051ec",
+    "publisher-roles.csv": "76c0a80110ec20a8090d87a984cad6a4c909a72c4ed8386b106ad1fb0a44b680"
+  },
+  "checkpoint_sha256": {
+    "added_tokens.json": "dc046d04c9b0ada7ae6f1dc89c465801799acdf0c9a6aab8c15a1b2d5ca4e91f",
+    "config.json": "3b0a2a3fb311037ba72670d87cbd16f920581985178547a76936dfdb292e5271",
+    "model.safetensors": "2031ec34340911b2cecf4f95f5e24db91b2a5d7ea0fa1e704e9cd6d61585e477",
+    "special_tokens_map.json": "b2f1b2f15f29a6b6d9d6ea4eca1675d2c231a71477f151d48f79cc83a625ba21",
+    "spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+    "tokenizer.json": "05402ffae6dd382a8491b1d29bfc139bec5d332662e86a026f433ce54c25c202",
+    "tokenizer_config.json": "f5a1a74a632c0e9225e09a21ddf60c2e70ef5d3bfc1f261a24fd8ddab27254d2"
+  },
+  "inference": {
+    "torch": "2.6.0+cpu",
+    "transformers": "5.5.4",
+    "tokenizers": "0.22.2",
+    "python": "3.12.10",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 8,
+    "batch_size": 8,
+    "pairs": 1080,
+    "max_input_tokens": 363
+  },
+  "upstream": "df95c87317863d507f229df190b2c0a29c4e4afc"
+}

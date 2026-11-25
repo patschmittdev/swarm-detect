@@ -1,0 +1,7 @@
+*.jsonl text eol=lf
+*.json text eol=lf
+data/** -text
+benchmarks/**/*.csv text eol=lf
+*.gz binary
+docs/figures/*.svg text eol=lf
+benchmarks/agent-pilot/** -text

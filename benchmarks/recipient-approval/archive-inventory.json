@@ -1,0 +1,64 @@
+{
+  "trace_files_by_root": {
+    "data": 16,
+    "tests/fixtures": 6
+  },
+  "events": 33696,
+  "events_by_tool": {
+    "list": 10086,
+    "login": 1236,
+    "read": 5764,
+    "recv": 77,
+    "scan": 11116,
+    "send": 40,
+    "write": 5377
+  },
+  "event_fields": [
+    "agent",
+    "args",
+    "content",
+    "provenance",
+    "result",
+    "run_id",
+    "schema_version",
+    "seq",
+    "target",
+    "tick",
+    "tool"
+  ],
+  "argument_fields_by_tool": {
+    "list": [
+      "prefix"
+    ],
+    "login": [
+      "credential"
+    ],
+    "read": [],
+    "recv": [
+      "digest",
+      "size"
+    ],
+    "scan": [],
+    "send": [
+      "digest",
+      "size"
+    ],
+    "write": [
+      "digest",
+      "size"
+    ]
+  },
+  "co_located_sidecars": {
+    "context.json": 4,
+    "interventions.jsonl": 1,
+    "labels.json": 22,
+    "manifest.json": 22,
+    "outcomes.json": 4
+  },
+  "handoff_fields": [
+    "files",
+    "host",
+    "receiver",
+    "sender"
+  ]
+}

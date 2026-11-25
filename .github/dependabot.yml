@@ -1,0 +1,9 @@
+version: 2
+# Only actions are updated automatically. `swarmtrace verify` fails on a changed
+# uv.lock digest because the lock is part of the recorded experiment's
+# provenance, so a lock update needs a deliberate re-recording.
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

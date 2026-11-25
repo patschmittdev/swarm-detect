@@ -1,0 +1,82 @@
+{
+  "agents": 3,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "swarm_peers",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:12:55+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 56.88,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "summaries",
+      "usage": {
+        "cache_creation_input_tokens": 31145,
+        "cache_read_input_tokens": 445485,
+        "input_tokens": 32,
+        "num_turns": 50,
+        "output_tokens": 7205,
+        "total_cost_usd": 0.2412425
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 55.69,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "summaries",
+      "usage": {
+        "cache_creation_input_tokens": 32094,
+        "cache_read_input_tokens": 641832,
+        "input_tokens": 38,
+        "num_turns": 54,
+        "output_tokens": 7234,
+        "total_cost_usd": 0.2649752
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 50.33,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "summaries",
+      "usage": {
+        "cache_creation_input_tokens": 29457,
+        "cache_read_input_tokens": 497665,
+        "input_tokens": 32,
+        "num_turns": 47,
+        "output_tokens": 6167,
+        "total_cost_usd": 0.22932850000000002
+      }
+    }
+  ],
+  "run_id": "test-06",
+  "runner_versions": {
+    "claude": "2.1.331"
+  },
+  "seed": 3767670688,
+  "service_seed": 1604180482,
+  "started_utc": "2026-11-24T18:11:56+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

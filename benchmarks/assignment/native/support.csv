@@ -1,0 +1,10 @@
+family,run_class,runs,fallback_runs,no_safe_interleave_runs,empty_assignment_runs,runs_with_shared_documents,runs_with_shared_read_before_component_end,runs_with_office_read_before_native_end,runs_with_unknown_reads,runs_with_missing_decisions,shared_verified_documents,shared_reads_before_component_end,office_reads_before_native_end,office_tickets,exercised_office_tickets,assignment_count,unknown_reads,missing_decisions,office_tickets_min,office_tickets_max,exercised_office_tickets_min,exercised_office_tickets_max,assignment_count_min,assignment_count_max
+record_check,positive,810,0,0,0,0,0,0,0,0,0,0,0,0,0,5405,0,0,0,0,0,0,2,15
+record_check,control,1080,0,0,0,0,0,0,0,0,0,0,0,0,0,7269,0,0,0,0,0,0,2,15
+record_check,all,1890,0,0,0,0,0,0,0,0,0,0,0,0,0,12674,0,0,0,0,0,0,2,15
+clerical_handoff,positive,810,0,0,0,0,0,0,0,0,0,0,0,0,0,5316,0,0,0,0,0,0,2,15
+clerical_handoff,control,1080,0,0,0,0,0,0,0,0,0,0,0,0,0,7199,0,0,0,0,0,0,2,15
+clerical_handoff,all,1890,0,0,0,0,0,0,0,0,0,0,0,0,0,12515,0,0,0,0,0,0,2,15
+pooled,positive,1620,0,0,0,0,0,0,0,0,0,0,0,0,0,10721,0,0,0,0,0,0,2,15
+pooled,control,2160,0,0,0,0,0,0,0,0,0,0,0,0,0,14468,0,0,0,0,0,0,2,15
+pooled,all,3780,0,0,0,0,0,0,0,0,0,0,0,0,0,25189,0,0,0,0,0,0,2,15

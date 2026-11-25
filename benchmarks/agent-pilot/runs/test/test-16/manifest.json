@@ -1,0 +1,93 @@
+{
+  "agents": 4,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "independent",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:20:25+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 36.55,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "orphans",
+      "usage": {
+        "cache_creation_input_tokens": 20254,
+        "cache_read_input_tokens": 252311,
+        "input_tokens": 20,
+        "num_turns": 13,
+        "output_tokens": 4332,
+        "total_cost_usd": 0.1496071
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 26.58,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "sites",
+      "usage": {
+        "cache_creation_input_tokens": 14176,
+        "cache_read_input_tokens": 155540,
+        "input_tokens": 14,
+        "num_turns": 14,
+        "output_tokens": 3423,
+        "total_cost_usd": 0.10651600000000001
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 121.61,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "summaries",
+      "usage": {
+        "total_tokens": 49221
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 65.86,
+      "exit_code": 0,
+      "index": 3,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "cross-refs",
+      "usage": {
+        "total_tokens": 19463
+      }
+    }
+  ],
+  "run_id": "test-16",
+  "runner_versions": {
+    "claude": "2.1.331",
+    "codex": "0.172.0"
+  },
+  "seed": 3067116751,
+  "service_seed": 1428621410,
+  "started_utc": "2026-11-24T18:18:18+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

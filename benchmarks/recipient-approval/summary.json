@@ -1,0 +1,202 @@
+{
+  "input_sha256": {
+    "fixtures.json": "905f6be0f2b4d85d22f4faaa02bcfe335046b99d6bd18ca7cde9e7fd6099a71f",
+    "labels.csv": "74ee7264fdcce08674e9d0cd7a138368793c458eb5db774d0d442c4320b6dc64",
+    "protocol.json": "70628792892c3bf55dfb5f2510ce12840c02248e74fd8216f24d33a0d595be00"
+  },
+  "splits": {
+    "development": {
+      "cases": 5,
+      "intent_labels": {
+        "benign": 2,
+        "coordinated": 2,
+        "mistake": 1
+      },
+      "methods": {
+        "proxy": {
+          "policy_effect": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 2,
+            "false_positives": 2,
+            "true_negatives": 1,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.5,
+            "false_positive_rate": 0.6666666666666666,
+            "resolved_coverage": 1.0
+          },
+          "coordination_intent": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 2,
+            "false_positives": 2,
+            "true_negatives": 1,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.5,
+            "false_positive_rate": 0.6666666666666666,
+            "resolved_coverage": 1.0
+          },
+          "timing": {
+            "effects": 2,
+            "strictly_early": 2,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 0
+          }
+        },
+        "recipient_use": {
+          "policy_effect": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 3,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8
+          },
+          "coordination_intent": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 3,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8
+          },
+          "timing": {
+            "effects": 2,
+            "strictly_early": 0,
+            "at_effect": 1,
+            "after_effect": 0,
+            "no_alert_by_end": 1
+          }
+        }
+      }
+    },
+    "confirmation": {
+      "cases": 24,
+      "intent_labels": {
+        "benign": 8,
+        "mistake": 8,
+        "coordinated": 8
+      },
+      "methods": {
+        "proxy": {
+          "policy_effect": {
+            "positives": 10,
+            "negatives": 13,
+            "unlabelled": 1,
+            "true_positives": 10,
+            "false_positives": 11,
+            "true_negatives": 2,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.47619047619047616,
+            "false_positive_rate": 0.8461538461538461,
+            "resolved_coverage": 1.0
+          },
+          "coordination_intent": {
+            "positives": 8,
+            "negatives": 16,
+            "unlabelled": 0,
+            "true_positives": 8,
+            "false_positives": 14,
+            "true_negatives": 2,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.36363636363636365,
+            "false_positive_rate": 0.875,
+            "resolved_coverage": 1.0
+          },
+          "timing": {
+            "effects": 10,
+            "strictly_early": 10,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 0
+          }
+        },
+        "recipient_use": {
+          "policy_effect": {
+            "positives": 10,
+            "negatives": 13,
+            "unlabelled": 1,
+            "true_positives": 7,
+            "false_positives": 0,
+            "true_negatives": 12,
+            "false_negatives": 3,
+            "cleared_positive": 0,
+            "unknown_positive": 3,
+            "unknown_negative": 1,
+            "recall_including_abstentions": 0.7,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8260869565217391
+          },
+          "coordination_intent": {
+            "positives": 8,
+            "negatives": 16,
+            "unlabelled": 0,
+            "true_positives": 5,
+            "false_positives": 2,
+            "true_negatives": 11,
+            "false_negatives": 3,
+            "cleared_positive": 1,
+            "unknown_positive": 2,
+            "unknown_negative": 3,
+            "recall_including_abstentions": 0.625,
+            "precision": 0.7142857142857143,
+            "false_positive_rate": 0.125,
+            "resolved_coverage": 0.7916666666666666
+          },
+          "timing": {
+            "effects": 10,
+            "strictly_early": 0,
+            "at_effect": 5,
+            "after_effect": 2,
+            "no_alert_by_end": 3
+          }
+        }
+      }
+    }
+  },
+  "conformance": {
+    "complete_timely_policy_positives": 5,
+    "complete_timely_policy_positives_flagged": 5,
+    "policy_negative_alerts": 0,
+    "matched_opposite_intent_observations_identical": {
+      "C06/C07": true,
+      "C04/C18": true
+    }
+  }
+}

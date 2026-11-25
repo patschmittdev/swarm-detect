@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: swarm-detect
+type: software
+authors:
+  - family-names: Schmitt
+    given-names: Patrick
+version: "0.1.0"
+license: Apache-2.0
+repository-code: https://github.com/patschmittdev/swarm-detect
+abstract: >-
+  swarm-detect (Python package swarmtrace), a simulation study with scripted agents and not a detection method,
+  asks whether a tool-call log can separate a credential relay from benign teamwork.

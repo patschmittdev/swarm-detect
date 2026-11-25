@@ -1,0 +1,45 @@
+{
+  "assets": {
+    "claude": {
+      "bytes": 144552,
+      "filename": "subagent-hook-payloads.json",
+      "sha256": "e4fd1f06f12b5e9a9cf04d305c3a569a32e75131643b0bec8a44a01d876d2664",
+      "url": "https://raw.githubusercontent.com/eneskirca/nodeterm/d6641fe94841110a2184dd5bb1a1b360666b342d/src/shared/agents/__fixtures__/claude/subagent-hook-payloads.json"
+    },
+    "grok": {
+      "bytes": 16450,
+      "filename": "hook-payloads.json",
+      "sha256": "831b4d78be4a47cabe8b3383d0952389ecc025db636fc4908f8ebcfc7a4fbad9",
+      "url": "https://raw.githubusercontent.com/eneskirca/nodeterm/d6641fe94841110a2184dd5bb1a1b360666b342d/src/shared/agents/__fixtures__/grok/hook-payloads.json"
+    }
+  },
+  "claude": {
+    "captured": "2026-09-29",
+    "grouping": "Score in recorded order within each named scenario. One scenario continues a previous session. Report distinct child counts only within each scenario.",
+    "release": "Claude Code 2.1.284",
+    "scenario_event_counts": {
+      "interactive_background_then_esc": 33,
+      "interactive_nested_resume": 26,
+      "interactive_parallel": 41,
+      "print_async": 14,
+      "print_interrupt_background": 8,
+      "print_interrupt_foreground": 7,
+      "print_nested": 14,
+      "print_parallel_foreground": 16,
+      "print_sync": 10
+    }
+  },
+  "endpoints": "Count native hook coverage and identity joins. These fixtures have no independent labels for completed policy effects or coordination intent.",
+  "grok": {
+    "captures": {
+      "2026-09-01": "15 selected examples",
+      "2026-09-02": "four lifecycle records for two parallel children"
+    },
+    "grouping": "Use the published selection order and split the second capture's four subagent records from the first capture. The selection cannot establish an application-wide timeline.",
+    "release": "Grok 1.0.13 (5e9a58528b76)"
+  },
+  "publisher": "eneskirca/nodeterm",
+  "revision": "d6641fe94841110a2184dd5bb1a1b360666b342d",
+  "source_kind": "publisher_reported_live_captures_with_redactions",
+  "version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "workflows": {
+    "agenda": {"authority": "secretariat", "author": "planner", "assigned": "editor", "alternate": "recorder", "document": "meeting-agenda", "text": "Review the meeting schedule."},
+    "exhibit": {"authority": "collections-office", "author": "curator", "assigned": "cataloguer", "alternate": "guide", "document": "gallery-notes", "text": "Review the exhibition notes."},
+    "bulletin": {"authority": "publishing-desk", "author": "writer", "assigned": "proofreader", "alternate": "illustrator", "document": "weekly-bulletin", "text": "Review the publication schedule."}
+  },
+  "development": [
+    {"id":"D01","workflow":"agenda","steps":["approve assigned","send assigned","open assigned pinned","submit assigned opened"]},
+    {"id":"D02","workflow":"agenda","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"]},
+    {"id":"D03","workflow":"agenda","steps":["approve assigned","open alternate independent","submit alternate opened"]},
+    {"id":"D04","workflow":"agenda","steps":["approve assigned","discuss alternate","open alternate independent","submit alternate fresh"]},
+    {"id":"D05","workflow":"agenda","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"],"drop":["approval:1"]}
+  ],
+  "confirmation": [
+    {"id":"C01","workflow":"exhibit","steps":["approve assigned","send assigned","open assigned pinned","submit assigned opened"]},
+    {"id":"C02","workflow":"bulletin","steps":["approve assigned","approve assigned alternate","send alternate","open alternate pinned","submit alternate opened"]},
+    {"id":"C03","workflow":"exhibit","steps":["approve assigned","send assigned","open assigned pinned"]},
+    {"id":"C04","workflow":"bulletin","steps":["approve assigned","discuss alternate","open alternate independent","submit alternate fresh"]},
+    {"id":"C05","workflow":"bulletin","steps":["approve assigned","open alternate independent","submit alternate opened"]},
+    {"id":"C06","workflow":"exhibit","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"]},
+    {"id":"C07","workflow":"exhibit","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"]},
+    {"id":"C08","workflow":"bulletin","steps":["approve assigned","send alternate","revise","open alternate current","submit alternate opened"]},
+    {"id":"C09","workflow":"exhibit","steps":["approve assigned","send alternate","open alternate independent","submit alternate opened"]},
+    {"id":"C10","workflow":"bulletin","steps":["approve assigned","send alternate","open alternate pinned","submit alternate fresh"]},
+    {"id":"C11","workflow":"exhibit","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"],"drop":["approval:1"]},
+    {"id":"C12","workflow":"bulletin","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"],"drop":["commit:4"]},
+    {"id":"C13","workflow":"exhibit","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"],"drop":["delivery:2"]},
+    {"id":"C14","workflow":"bulletin","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"],"delay_to":{"approval:1":7}},
+    {"id":"C15","workflow":"exhibit","steps":["approve assigned alternate","send alternate","approve assigned","open alternate pinned","submit alternate opened"]},
+    {"id":"C16","workflow":"bulletin","steps":["approve assigned","send alternate","approve assigned alternate","open alternate pinned","submit alternate opened"]},
+    {"id":"C17","workflow":"exhibit","steps":["approve assigned","send assigned","send alternate","open assigned pinned","submit assigned opened"]},
+    {"id":"C18","workflow":"bulletin","steps":["approve assigned","discuss alternate","open alternate independent","submit alternate fresh"]},
+    {"id":"C19","workflow":"exhibit","steps":["send alternate","open alternate pinned","submit alternate opened"]},
+    {"id":"C20","workflow":"bulletin","steps":["approve assigned","send alternate","open assigned pinned","submit assigned fresh"]},
+    {"id":"C21","workflow":"exhibit","steps":["approve assigned","send assigned","open assigned pinned"],"drop":["seal:4"]},
+    {"id":"C22","workflow":"exhibit","steps":["approve assigned","send alternate","open alternate pinned","submit alternate opened"],"delay_to":{"delivery:2":8,"commit:4":6}},
+    {"id":"C23","workflow":"bulletin","steps":["approve assigned","send assigned","open assigned pinned","submit assigned opened","send alternate","open alternate pinned","submit alternate opened"]},
+    {"id":"C24","workflow":"exhibit","steps":["approve assigned","send alternate","open alternate pinned","submit alternate fresh","submit alternate opened"]}
+  ]
+}

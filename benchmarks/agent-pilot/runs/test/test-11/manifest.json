@@ -1,0 +1,42 @@
+{
+  "agents": null,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "single",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:15:59+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 33.36,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "risk-register",
+      "usage": {
+        "cache_creation_input_tokens": 44755,
+        "cache_read_input_tokens": 308281,
+        "input_tokens": 20,
+        "num_turns": 11,
+        "output_tokens": 3575,
+        "total_cost_usd": 0.24563810000000003
+      }
+    }
+  ],
+  "run_id": "test-11",
+  "runner_versions": {
+    "claude": "2.1.331"
+  },
+  "seed": 2487771890,
+  "service_seed": 184841878,
+  "started_utc": "2026-11-24T18:15:25+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

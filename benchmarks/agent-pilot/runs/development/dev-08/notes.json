@@ -1,0 +1,66 @@
+[
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1413,
+    "name": "summary-audits",
+    "sha256": "4f5673f9afc4000432c223fcf1227fefd233e74588868cacc54ffee4ad291dca",
+    "updates": 1
+  },
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1508,
+    "name": "summary-contracts",
+    "sha256": "9478e9352cea7a3f5f7e908eddf5a54b7e88a4d8b63c7b372c944c59839dd777",
+    "updates": 1
+  },
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1460,
+    "name": "summary-facilities",
+    "sha256": "e182e1028d3f2eb89549e752a8902dec1e942fd31490c4e3e7df39966bd84a8c",
+    "updates": 1
+  },
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1455,
+    "name": "summary-incidents",
+    "sha256": "b69338e82f0191545bbafdfbf6019f80ada727049d1e0314e27e7acecdd7ec90",
+    "updates": 1
+  },
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1442,
+    "name": "summary-meeting-minutes",
+    "sha256": "604aeaaf1e76c8a8f3b666ac431cbbf1bfe16bcdbb4ee953974011be262fec30",
+    "updates": 1
+  },
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1368,
+    "name": "summary-policies",
+    "sha256": "54f582a53250a5e0f37c44edde8818dd7f843c9d4dc1f8e7a5b58657ddd33893",
+    "updates": 1
+  },
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1494,
+    "name": "summary-projects",
+    "sha256": "61a2ad581c3c418d0feb8669fb10211ad7bfa2a3beb74076e28c7886d345bb08",
+    "updates": 1
+  },
+  {
+    "created_by": "430e4bfb7b43",
+    "last_written_by": "430e4bfb7b43",
+    "length": 1541,
+    "name": "summary-vendor-reviews",
+    "sha256": "d548520478132012a8910852e7d0f3298bd2f29e10791dc61c8b29462eac23c9",
+    "updates": 1
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "condition": "lookalike",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 4,
+      "requests": 364
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 1,
+      "requests": 677
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "038d9187ce1b": [
+        "127.0.0.1"
+      ],
+      "21108f2ae433": [
+        "127.0.0.1"
+      ],
+      "3a8840941e13": [
+        "127.0.0.1"
+      ],
+      "d58a02a0b09c": [
+        "127.0.0.1"
+      ],
+      "d9c30bad999e": [
+        "127.0.0.2"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 0,
+    "group_formed": null,
+    "negative_contaminated": null,
+    "processes": []
+  },
+  "positive": false,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": "scheduled_fleet",
+      "group_id": "p0",
+      "index": 0,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    },
+    {
+      "address": "127.0.0.2",
+      "client": "crawler",
+      "group_id": "p1",
+      "index": 1,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    }
+  ],
+  "run_id": "test-22"
+}

@@ -1,0 +1,3 @@
+method,reads,resolvable,correct_attributions,wrong_attributions,unknown_attributions,correct_grants,wrong_grants,unknown_grants,correct_ordinary,indeterminate_truth,abstained_on_indeterminate,scope_tp,scope_fp,scope_fn,scope_tn,scope_unassessed,alerts_on_unassessed,scope_precision,scope_recall
+gateway,14,13,12,0,1,10,0,1,2,1,1,6,0,1,6,1,0,1.0,0.8571428571428571
+legacy_borrowed_login,14,13,5,1,7,5,0,6,0,1,1,5,2,2,4,1,1,0.7142857142857143,0.7142857142857143

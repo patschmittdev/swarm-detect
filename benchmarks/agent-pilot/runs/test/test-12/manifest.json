@@ -1,0 +1,49 @@
+{
+  "agents": null,
+  "background": true,
+  "batch_parallel": 3,
+  "condition": "single",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:18:17+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 99.31,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "orphans",
+      "usage": {
+        "total_tokens": 46111
+      }
+    },
+    {
+      "client": "browsing_users",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 1,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    }
+  ],
+  "run_id": "test-12",
+  "runner_versions": {
+    "codex": "0.172.0"
+  },
+  "seed": 2633233264,
+  "service_seed": 1148245648,
+  "started_utc": "2026-11-24T18:15:47+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

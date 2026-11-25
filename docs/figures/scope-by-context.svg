@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 466" width="720" height="466" font-family="sans-serif" font-size="13" fill="#25313d" role="img" aria-labelledby="title description">
+  <title id="title">Strict scope discrimination by context</title>
+  <desc id="description">Strict labelling: scope violations against in-scope relays only (144 against 48 test runs). C0: log only; C2: also each hand-off's file scope. Strict at aggregation-only reference: rule has AUROC 0.5153, with interval from 0.4047 to 0.6265 (bootstrap bounds). Strict at C0: files_rule has AUROC 0.7836, with interval from 0.7195 to 0.8465 (bootstrap bounds). Strict at C0: scope_rule has AUROC 0.8400, with interval from 0.7872 to 0.8919 (bootstrap bounds). Strict at C2: scope_rule has AUROC 0.9661, with interval from 0.9377 to 0.9867 (bootstrap bounds). The aggregation-only reference is shared-login count (no context). Hollow markers are drawn below the interval whiskers. The dashed horizontal line is chance AUROC 0.5 (unitless).</desc>
+  <rect x="0" y="0" width="720" height="466" fill="#fafbf9" />
+  <text x="28" y="34" font-size="22" font-weight="bold">Strict scope discrimination by context</text>
+  <text x="28" y="58" font-size="12">Strict labelling: scope violations against in-scope relays only (144 against 48 test runs)</text>
+  <text x="28" y="78" font-size="12">C0: log only; C2: also each hand-off's file scope</text>
+  <g id="legend" aria-label="Legend">
+    <circle cx="280" cy="104" r="5.500" fill="#fafbf9" stroke="#315c7b" stroke-width="1.800" />
+    <text x="293" y="108">Strict</text>
+    <line x1="400" y1="104" x2="424" y2="104" stroke="#6e7780" stroke-width="1.500" stroke-dasharray="6 4" />
+    <text x="432" y="108">chance</text>
+  </g>
+  <line x1="92" y1="366.000" x2="692" y2="366.000" stroke="#dce1e4" stroke-width="1" />
+  <text x="79" y="366.000" text-anchor="end" dominant-baseline="middle">0</text>
+  <line x1="92" y1="307.500" x2="692" y2="307.500" stroke="#dce1e4" stroke-width="1" />
+  <text x="79" y="307.500" text-anchor="end" dominant-baseline="middle">0.25</text>
+  <line x1="92" y1="249.000" x2="692" y2="249.000" stroke="#dce1e4" stroke-width="1" />
+  <text x="79" y="249.000" text-anchor="end" dominant-baseline="middle">0.5</text>
+  <line x1="92" y1="190.500" x2="692" y2="190.500" stroke="#dce1e4" stroke-width="1" />
+  <text x="79" y="190.500" text-anchor="end" dominant-baseline="middle">0.75</text>
+  <line x1="92" y1="132.000" x2="692" y2="132.000" stroke="#dce1e4" stroke-width="1" />
+  <text x="79" y="132.000" text-anchor="end" dominant-baseline="middle">1</text>
+  <line x1="92" y1="132" x2="92" y2="366" stroke="#61717d" />
+  <text x="24" y="249" text-anchor="middle" transform="rotate(-90 24 249)">AUROC (unitless)</text>
+  <text x="392" y="442" text-anchor="middle">Defender context and detector</text>
+  <line x1="92" y1="249.000" x2="692" y2="249.000" stroke="#6e7780" stroke-width="1.500" stroke-dasharray="6 4" />
+  <g data-series="Strict" data-label="aggregation-only reference: rule" data-value="0.5153" data-lo="0.4047" data-hi="0.6265">
+    <circle cx="158" cy="245.420" r="5.500" fill="#fafbf9" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="158" y1="271.300" x2="158" y2="219.399" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="154" y1="271.300" x2="162" y2="271.300" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="154" y1="219.399" x2="162" y2="219.399" stroke="#315c7b" stroke-width="1.800" />
+  </g>
+  <text x="158" y="393" text-anchor="middle" font-size="12">shared-login count</text>
+  <text x="158" y="410" text-anchor="middle" font-size="12">(no context)</text>
+  <g data-series="Strict" data-label="C0: files_rule" data-value="0.7836" data-lo="0.7195" data-hi="0.8465">
+    <circle cx="318" cy="182.638" r="5.500" fill="#fafbf9" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="318" y1="197.637" x2="318" y2="167.919" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="314" y1="197.637" x2="322" y2="197.637" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="314" y1="167.919" x2="322" y2="167.919" stroke="#315c7b" stroke-width="1.800" />
+  </g>
+  <text x="318" y="393" text-anchor="middle" font-size="12">C0: files_rule</text>
+  <g data-series="Strict" data-label="C0: scope_rule" data-value="0.8400" data-lo="0.7872" data-hi="0.8919">
+    <circle cx="478" cy="169.440" r="5.500" fill="#fafbf9" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="478" y1="181.795" x2="478" y2="157.295" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="474" y1="181.795" x2="482" y2="181.795" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="474" y1="157.295" x2="482" y2="157.295" stroke="#315c7b" stroke-width="1.800" />
+  </g>
+  <text x="478" y="393" text-anchor="middle" font-size="12">C0: scope_rule</text>
+  <g data-series="Strict" data-label="C2: scope_rule" data-value="0.9661" data-lo="0.9377" data-hi="0.9867">
+    <circle cx="638" cy="139.933" r="5.500" fill="#fafbf9" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="638" y1="146.578" x2="638" y2="135.112" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="634" y1="146.578" x2="642" y2="146.578" stroke="#315c7b" stroke-width="1.800" />
+    <line x1="634" y1="135.112" x2="642" y2="135.112" stroke="#315c7b" stroke-width="1.800" />
+  </g>
+  <text x="638" y="393" text-anchor="middle" font-size="12">C2: scope_rule</text>
+</svg>

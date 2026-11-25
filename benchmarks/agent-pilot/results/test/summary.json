@@ -1,0 +1,863 @@
+{
+  "official": true,
+  "record": {
+    "set": "test",
+    "freeze_sha256": "8b451d9b68d9f1b2a386ce498500301c473fdc470e7c838e6081a37a43271f5f",
+    "index_sha256": "7694e2aab7ec265e7db0a6ce5921a332d79a3b17c7f1ad2651c969181b8bd9ed",
+    "scored_utc": "2026-11-24T18:26:33Z"
+  },
+  "set": "test",
+  "protocol_sha256": "f83820f31e87a1fbeef6ad79554bd7adffe3b91a0f62e25a9bbe4f2d325d42e2",
+  "freeze_sha256": "8b451d9b68d9f1b2a386ce498500301c473fdc470e7c838e6081a37a43271f5f",
+  "index_sha256": "7694e2aab7ec265e7db0a6ce5921a332d79a3b17c7f1ad2651c969181b8bd9ed",
+  "source_sha256": {
+    "fleet/__init__.py": "f38ce8e808b0e8ffda9e2127532705021b6520ed408f18773e81ef2634ee0a78",
+    "fleet/__main__.py": "81713129171c29f87f6681ffae3a89b70094c4b6463a8af915bff434d3d39e27",
+    "fleet/baselines.py": "2a55ce62f0dcb6be0b2814532c686ad2a8b81c9473884b47b1a65e1155b69832",
+    "fleet/detector.py": "0a097fbb57b21a7b3b54cacc62e95b3b4c0c736d0a7c5a065258a5f21ee42674",
+    "fleet/events.py": "fdc35d7f834f86e476228f2659540ae27839a630bc6ee31e9410b34710ad88f3",
+    "study/__init__.py": "f3cf3c1e7eb88aed4f8c162961d578dc77d75e09064c578fca0be3e52de65aac",
+    "study/__main__.py": "4495bdafbdd2f4fe1e9373ace73740a7ef1666ec29c906f58641d1b59b448ab7",
+    "study/fetch.py": "7cd462941410dbb527ceb74c47193f20bbe84d498a12c2cff6ef71bbe88268ef",
+    "study/fleet_api.py": "73f33601456030a0f9f5b9b591d84de41d8540c99764f22d636747505ed1d65d",
+    "study/folding.py": "e6cd124fcb056ac64f8b0515c981e8610f33e86cabaef76db8bf947f8bd76150",
+    "study/freeze.py": "3d774008dd99248e7bf2fcace873fa5f02ae43e3f270155cf1f3b5a0b2e1fbda",
+    "study/pilot.py": "86058f036e4aaa61192ad00d28bacde5220da127d473f10bc4121a7fce96dd39",
+    "study/stats.py": "1457eb4532ddb5f177ba93e0cc249e29a8197828194a24fad516f075e1218b40",
+    "study/transfer.py": "604d6760821d7709d365cc6a6487db7f3423fdf1289266b92e072939b1c549af"
+  },
+  "counts": {
+    "runs_in_table": 24,
+    "present": 24,
+    "timed_out": 0,
+    "tasks": 31,
+    "tasks_completed": 31
+  },
+  "runner_versions": [
+    {
+      "claude": "2.1.331",
+      "codex": "0.172.0"
+    },
+    {
+      "claude": "2.1.331"
+    },
+    {
+      "codex": "0.172.0"
+    },
+    {}
+  ],
+  "batch_parallel": [
+    3
+  ],
+  "index_counters": {
+    "dropped_keys": {
+      "manifest.json": 71
+    }
+  },
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": 20260602
+  },
+  "p_value_assumption": "The exact p-value assumes runs are exchangeable under the null; conditions ran in blocks, all swarm_native runs use one runner and machine load varies, so it is conditional on that assumption.",
+  "modes": {
+    "identity": {
+      "primary": {
+        "positives": 10,
+        "negatives": 8,
+        "auroc": 0.79375,
+        "wins": 56,
+        "ties": 15,
+        "pairs": 80,
+        "p_hits": 809,
+        "p_total": 43758,
+        "p_exact_one_sided": 0.018488047899812607,
+        "bootstrap": {
+          "auroc": 0.79375,
+          "low": 0.5875,
+          "high": 1.0,
+          "resamples": 2000,
+          "seed": 20260602
+        },
+        "p_method": "exact permutation distribution of the positives' mid-rank sum over all C(N, n1) labelings, counted by dynamic programming; ties at mid-ranks; p = p_hits / p_total",
+        "cross_class_ties": 15
+      },
+      "runs_by_score_value": {
+        "0.0": {
+          "swarm_native": 3,
+          "single": 3,
+          "independent": 4,
+          "duplicates": 1,
+          "lookalike": 3
+        },
+        "0.5": {
+          "duplicates": 3
+        },
+        "0.75": {
+          "swarm_native": 2,
+          "swarm_peers": 5
+        }
+      },
+      "as_treated": {
+        "positives": 10,
+        "negatives": 5,
+        "auroc": 0.85,
+        "wins": 35,
+        "ties": 15,
+        "pairs": 50,
+        "p_hits": 56,
+        "p_total": 3003,
+        "p_exact_one_sided": 0.018648018648018648,
+        "bootstrap": {
+          "auroc": 0.85,
+          "low": 0.7,
+          "high": 1.0,
+          "resamples": 2000,
+          "seed": 20260602
+        },
+        "positives_formed": 10,
+        "positives_not_formed": 0,
+        "positives_unknown": 0,
+        "negatives_contaminated": 3,
+        "negatives_unknown": 0
+      },
+      "baselines": {
+        "requests": {
+          "primary": {
+            "auroc": 0.1,
+            "wins": 8,
+            "ties": 0,
+            "pairs": 80
+          },
+          "all_runs": {
+            "auroc": 0.20357142857142857,
+            "wins": 28,
+            "ties": 1,
+            "pairs": 140
+          }
+        },
+        "sessions": {
+          "primary": {
+            "auroc": 0.36875,
+            "wins": 25,
+            "ties": 9,
+            "pairs": 80
+          },
+          "all_runs": {
+            "auroc": 0.33214285714285713,
+            "wins": 41,
+            "ties": 11,
+            "pairs": 140
+          }
+        },
+        "concurrency": {
+          "primary": {
+            "auroc": 0.525,
+            "wins": 18,
+            "ties": 48,
+            "pairs": 80
+          },
+          "all_runs": {
+            "auroc": 0.37857142857142856,
+            "wins": 21,
+            "ties": 64,
+            "pairs": 140
+          }
+        },
+        "template_multiplicity": {
+          "primary": {
+            "auroc": 0.39375,
+            "wins": 19,
+            "ties": 25,
+            "pairs": 80
+          },
+          "all_runs": {
+            "auroc": 0.5892857142857143,
+            "wins": 61,
+            "ties": 43,
+            "pairs": 140
+          }
+        }
+      },
+      "alerts": {
+        "positives": {
+          "flagged": 7,
+          "of": 10,
+          "rate": 0.7,
+          "ci95_low": 0.3475471499400026,
+          "ci95_high": 0.9332604888222655
+        },
+        "negatives": {
+          "flagged": 0,
+          "of": 14,
+          "rate": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.2316357616501165
+        },
+        "by_condition": {
+          "duplicates": {
+            "flagged": 0,
+            "of": 4,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.6023646356164747
+          },
+          "independent": {
+            "flagged": 0,
+            "of": 4,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.6023646356164747
+          },
+          "lookalike": {
+            "flagged": 0,
+            "of": 3,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.7075982261787133
+          },
+          "single": {
+            "flagged": 0,
+            "of": 3,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.7075982261787133
+          },
+          "swarm_native": {
+            "flagged": 2,
+            "of": 5,
+            "rate": 0.4,
+            "ci95_low": 0.05274495052631695,
+            "ci95_high": 0.8533672003653268
+          },
+          "swarm_peers": {
+            "flagged": 5,
+            "of": 5,
+            "rate": 1.0,
+            "ci95_low": 0.4781762498950183,
+            "ci95_high": 1.0
+          }
+        },
+        "interval": "two-sided exact (Clopper-Pearson) 95 percent"
+      },
+      "membership": {
+        "per_run": [
+          {
+            "run": "test-01",
+            "true_positives": 0,
+            "named": 0,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 0,
+            "actual": 4,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-02",
+            "true_positives": 0,
+            "named": 0,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 0,
+            "actual": 1,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-03",
+            "true_positives": 0,
+            "named": 0,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 0,
+            "actual": 1,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-04",
+            "true_positives": 1,
+            "named": 1,
+            "named_groups_single_token": 1,
+            "named_groups_multi_token": 0,
+            "actual": 1,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-05",
+            "true_positives": 1,
+            "named": 1,
+            "named_groups_single_token": 1,
+            "named_groups_multi_token": 0,
+            "actual": 1,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-06",
+            "true_positives": 3,
+            "named": 3,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 1,
+            "actual": 3,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-07",
+            "true_positives": 3,
+            "named": 3,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 1,
+            "actual": 3,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-08",
+            "true_positives": 3,
+            "named": 3,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 1,
+            "actual": 3,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-09",
+            "true_positives": 4,
+            "named": 4,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 1,
+            "actual": 4,
+            "ambiguous_removed": 0
+          },
+          {
+            "run": "test-10",
+            "true_positives": 4,
+            "named": 4,
+            "named_groups_single_token": 0,
+            "named_groups_multi_token": 1,
+            "actual": 4,
+            "ambiguous_removed": 0
+          }
+        ],
+        "runs_with_a_single_token_named_group": 2,
+        "runs_with_a_single_token_named_group_list": [
+          "test-04",
+          "test-05"
+        ],
+        "runs_with_a_multi_token_named_group": 5,
+        "pooled_all_positive_runs": {
+          "runs": 10,
+          "true_positives": 19,
+          "named": 19,
+          "actual": 25,
+          "ambiguous_removed": 0,
+          "precision": 1.0,
+          "recall": 0.76
+        },
+        "pooled_runs_with_at_least_two_group_tokens": {
+          "runs": 6,
+          "true_positives": 17,
+          "named": 17,
+          "actual": 21,
+          "ambiguous_removed": 0,
+          "precision": 1.0,
+          "recall": 0.8095238095238095
+        },
+        "group_not_visible_as_separate_identities": [
+          "test-02",
+          "test-03",
+          "test-04",
+          "test-05"
+        ]
+      }
+    },
+    "no_identity": {
+      "primary": {
+        "positives": 10,
+        "negatives": 8,
+        "auroc": 0.7,
+        "wins": 32,
+        "ties": 48,
+        "pairs": 80,
+        "p_hits": 3003,
+        "p_total": 43758,
+        "p_exact_one_sided": 0.06862745098039216,
+        "bootstrap": {
+          "auroc": 0.7,
+          "low": 0.55,
+          "high": 0.85,
+          "resamples": 2000,
+          "seed": 20260602
+        },
+        "p_method": "exact permutation distribution of the positives' mid-rank sum over all C(N, n1) labelings, counted by dynamic programming; ties at mid-ranks; p = p_hits / p_total",
+        "cross_class_ties": 48
+      },
+      "runs_by_score_value": {
+        "0.0": {
+          "swarm_native": 2,
+          "swarm_peers": 4,
+          "single": 2,
+          "independent": 4,
+          "duplicates": 4,
+          "lookalike": 1
+        },
+        "0.5": {
+          "swarm_native": 3,
+          "swarm_peers": 1,
+          "single": 1,
+          "lookalike": 2
+        }
+      },
+      "as_treated": {
+        "positives": 10,
+        "negatives": 5,
+        "auroc": 0.7,
+        "wins": 20,
+        "ties": 30,
+        "pairs": 50,
+        "p_hits": 462,
+        "p_total": 3003,
+        "p_exact_one_sided": 0.15384615384615385,
+        "bootstrap": {
+          "auroc": 0.7,
+          "low": 0.55,
+          "high": 0.85,
+          "resamples": 2000,
+          "seed": 20260602
+        },
+        "positives_formed": 10,
+        "positives_not_formed": 0,
+        "positives_unknown": 0,
+        "negatives_contaminated": 3,
+        "negatives_unknown": 0
+      },
+      "baselines": {
+        "requests": {
+          "primary": {
+            "auroc": 0.1,
+            "wins": 8,
+            "ties": 0,
+            "pairs": 80
+          },
+          "all_runs": {
+            "auroc": 0.20357142857142857,
+            "wins": 28,
+            "ties": 1,
+            "pairs": 140
+          }
+        },
+        "sessions": {
+          "primary": {
+            "auroc": 0.5,
+            "wins": 0,
+            "ties": 80,
+            "pairs": 80
+          },
+          "all_runs": {
+            "auroc": 0.5,
+            "wins": 0,
+            "ties": 140,
+            "pairs": 140
+          }
+        },
+        "concurrency": {
+          "primary": {
+            "auroc": 0.525,
+            "wins": 18,
+            "ties": 48,
+            "pairs": 80
+          },
+          "all_runs": {
+            "auroc": 0.37857142857142856,
+            "wins": 21,
+            "ties": 64,
+            "pairs": 140
+          }
+        },
+        "template_multiplicity": {
+          "primary": {
+            "auroc": null,
+            "wins": null,
+            "ties": null,
+            "pairs": null,
+            "note": "not computed: a run has no value"
+          },
+          "all_runs": {
+            "auroc": null,
+            "wins": null,
+            "ties": null,
+            "pairs": null,
+            "note": "not computed: a run has no value"
+          }
+        }
+      },
+      "alerts": {
+        "positives": {
+          "flagged": 0,
+          "of": 10,
+          "rate": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.3084971078187607
+        },
+        "negatives": {
+          "flagged": 0,
+          "of": 14,
+          "rate": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.2316357616501165
+        },
+        "by_condition": {
+          "duplicates": {
+            "flagged": 0,
+            "of": 4,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.6023646356164747
+          },
+          "independent": {
+            "flagged": 0,
+            "of": 4,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.6023646356164747
+          },
+          "lookalike": {
+            "flagged": 0,
+            "of": 3,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.7075982261787133
+          },
+          "single": {
+            "flagged": 0,
+            "of": 3,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.7075982261787133
+          },
+          "swarm_native": {
+            "flagged": 0,
+            "of": 5,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.5218237501049814
+          },
+          "swarm_peers": {
+            "flagged": 0,
+            "of": 5,
+            "rate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.5218237501049814
+          }
+        },
+        "interval": "two-sided exact (Clopper-Pearson) 95 percent"
+      }
+    }
+  },
+  "alerts_by_signal": {
+    "identity": {
+      "per_run": {
+        "test-04": [
+          "resource_interleaving"
+        ],
+        "test-05": [
+          "resource_interleaving"
+        ],
+        "test-06": [
+          "read_handoff"
+        ],
+        "test-07": [
+          "read_handoff"
+        ],
+        "test-08": [
+          "read_handoff"
+        ],
+        "test-09": [
+          "read_handoff"
+        ],
+        "test-10": [
+          "read_handoff"
+        ]
+      },
+      "condition_signal_counts": {
+        "swarm_native|resource_interleaving": 2,
+        "swarm_peers|read_handoff": 5
+      }
+    },
+    "no_identity": {
+      "per_run": {},
+      "condition_signal_counts": {}
+    }
+  },
+  "alerts_by_task": {
+    "identity": {
+      "(none)|lookalike": {
+        "runs": 3,
+        "alerts": 0
+      },
+      "actions|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "actions|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "actions|swarm_peers": {
+        "runs": 1,
+        "alerts": 1
+      },
+      "cross-refs|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "cross-refs|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "cross-refs|swarm_peers": {
+        "runs": 1,
+        "alerts": 1
+      },
+      "orphans|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "orphans|independent": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "orphans|single": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "orphans|swarm_native": {
+        "runs": 1,
+        "alerts": 1
+      },
+      "owners|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "owners|swarm_peers": {
+        "runs": 1,
+        "alerts": 1
+      },
+      "risk-register|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "risk-register|single": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "risk-register|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|independent": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|single": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|swarm_native": {
+        "runs": 1,
+        "alerts": 1
+      },
+      "summaries|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "summaries|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "summaries|swarm_peers": {
+        "runs": 1,
+        "alerts": 1
+      },
+      "vendors|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "vendors|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "vendors|swarm_peers": {
+        "runs": 1,
+        "alerts": 1
+      }
+    },
+    "no_identity": {
+      "(none)|lookalike": {
+        "runs": 3,
+        "alerts": 0
+      },
+      "actions|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "actions|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "actions|swarm_peers": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "cross-refs|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "cross-refs|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "cross-refs|swarm_peers": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "orphans|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "orphans|independent": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "orphans|single": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "orphans|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "owners|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "owners|swarm_peers": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "risk-register|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "risk-register|single": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "risk-register|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|independent": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|single": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "sites|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "summaries|duplicates": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "summaries|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "summaries|swarm_peers": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "vendors|independent": {
+        "runs": 2,
+        "alerts": 0
+      },
+      "vendors|swarm_native": {
+        "runs": 1,
+        "alerts": 0
+      },
+      "vendors|swarm_peers": {
+        "runs": 1,
+        "alerts": 0
+      }
+    }
+  },
+  "go_criterion": {
+    "auroc_at_least_0_80": false,
+    "p_below_0_05": true,
+    "auroc_strictly_above_each_baseline": {
+      "requests": true,
+      "sessions": true,
+      "concurrency": true,
+      "template_multiplicity": true
+    },
+    "auroc_above_every_baseline": true,
+    "baselines_unavailable": [],
+    "reasons_not_computed": [],
+    "arithmetic": "integer pair counts: 10 * (2W + T) >= 16 * N; baselines compared on 2W + T over the same N pairs; 20 * hits < total for p < 0.05",
+    "go": false
+  },
+  "predictions": [
+    {
+      "id": 1,
+      "in_band": {
+        "sessions": true,
+        "concurrency": true
+      },
+      "band": [
+        0.35,
+        0.65
+      ],
+      "aurocs": {
+        "sessions": 0.36875,
+        "concurrency": 0.525
+      },
+      "result": "held"
+    },
+    {
+      "id": 2,
+      "runs": 5,
+      "one_token_runs": 4,
+      "threshold": 3,
+      "result": "held"
+    },
+    {
+      "id": 3,
+      "runs": 5,
+      "runs_without_served_version_record": 0,
+      "cross_process_fetch_runs": 5,
+      "fetch_and_alerted_runs": 5,
+      "threshold": 4,
+      "result": "held"
+    },
+    {
+      "id": 4,
+      "duplicates_flagged": 0,
+      "duplicates": 4,
+      "negative_conditions_with_higher_fraction": [],
+      "result": "did not hold"
+    },
+    {
+      "id": 5,
+      "auroc_identity": 0.79375,
+      "auroc_no_identity": 0.7,
+      "drop": 0.09375,
+      "threshold": 0.1,
+      "result": "did not hold"
+    }
+  ]
+}

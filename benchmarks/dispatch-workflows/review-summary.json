@@ -1,0 +1,296 @@
+{
+  "detectors_on_primary_consensus_intent": {
+    "assignment": {
+      "excluded_uncertain": 47,
+      "negative_alert": 0,
+      "negative_unknown": 0,
+      "positive_alert": 0,
+      "positive_unknown": 0,
+      "resolved_negative": 11,
+      "resolved_positive": 0
+    },
+    "commit": {
+      "excluded_uncertain": 47,
+      "negative_alert": 0,
+      "negative_unknown": 0,
+      "positive_alert": 0,
+      "positive_unknown": 0,
+      "resolved_negative": 11,
+      "resolved_positive": 0
+    },
+    "dispatch": {
+      "excluded_uncertain": 47,
+      "negative_alert": 0,
+      "negative_unknown": 0,
+      "positive_alert": 0,
+      "positive_unknown": 0,
+      "resolved_negative": 11,
+      "resolved_positive": 0
+    },
+    "margin": {
+      "excluded_uncertain": 47,
+      "negative_alert": 0,
+      "negative_unknown": 0,
+      "positive_alert": 0,
+      "positive_unknown": 0,
+      "resolved_negative": 11,
+      "resolved_positive": 0
+    },
+    "margin_or_dispatch": {
+      "excluded_uncertain": 47,
+      "negative_alert": 0,
+      "negative_unknown": 0,
+      "positive_alert": 0,
+      "positive_unknown": 0,
+      "resolved_negative": 11,
+      "resolved_positive": 0
+    },
+    "peer_read": {
+      "excluded_uncertain": 47,
+      "negative_alert": 11,
+      "negative_unknown": 0,
+      "positive_alert": 0,
+      "positive_unknown": 0,
+      "resolved_negative": 11,
+      "resolved_positive": 0
+    }
+  },
+  "matched_probes": {
+    "cases": [
+      {
+        "case_id": "5a2d662846cc161a",
+        "completed_effect": "yes",
+        "cooperation": "yes",
+        "intent": "unresolved",
+        "read_exception": "yes",
+        "script_intent": "coordinated"
+      },
+      {
+        "case_id": "ff161958dad969f4",
+        "completed_effect": "yes",
+        "cooperation": "yes",
+        "intent": "unresolved",
+        "read_exception": "yes",
+        "script_intent": "mistake"
+      }
+    ],
+    "identical_observations_except_case_id": true
+  },
+  "packet_sha256": "e4528f08944a322f68b75d17aa612d0e06c181a59188bc3349ec6f5fb2ff064a",
+  "paired_probe_cases": 2,
+  "primary_agreement": {
+    "completed_effect": {
+      "agree": 58,
+      "cases": 58,
+      "cohen_kappa": 1.0,
+      "consensus": {
+        "no": 26,
+        "unknown": 0,
+        "yes": 32
+      },
+      "disagree": 0,
+      "fraction_agree": 1.0,
+      "reviewer_one_by_reviewer_two": {
+        "no": {
+          "no": 26,
+          "unknown": 0,
+          "yes": 0
+        },
+        "unknown": {
+          "no": 0,
+          "unknown": 0,
+          "yes": 0
+        },
+        "yes": {
+          "no": 0,
+          "unknown": 0,
+          "yes": 32
+        }
+      }
+    },
+    "cooperation": {
+      "agree": 58,
+      "cases": 58,
+      "cohen_kappa": 1.0,
+      "consensus": {
+        "no": 8,
+        "unknown": 0,
+        "yes": 50
+      },
+      "disagree": 0,
+      "fraction_agree": 1.0,
+      "reviewer_one_by_reviewer_two": {
+        "no": {
+          "no": 8,
+          "unknown": 0,
+          "yes": 0
+        },
+        "unknown": {
+          "no": 0,
+          "unknown": 0,
+          "yes": 0
+        },
+        "yes": {
+          "no": 0,
+          "unknown": 0,
+          "yes": 50
+        }
+      }
+    },
+    "intent": {
+      "agree": 50,
+      "cases": 58,
+      "cohen_kappa": 0.649016641452345,
+      "consensus": {
+        "coordinated": 0,
+        "mistake": 0,
+        "routine": 11,
+        "unresolved": 39
+      },
+      "disagree": 8,
+      "fraction_agree": 0.8620689655172413,
+      "reviewer_one_by_reviewer_two": {
+        "coordinated": {
+          "coordinated": 0,
+          "mistake": 0,
+          "routine": 0,
+          "unresolved": 0
+        },
+        "mistake": {
+          "coordinated": 0,
+          "mistake": 0,
+          "routine": 0,
+          "unresolved": 0
+        },
+        "routine": {
+          "coordinated": 0,
+          "mistake": 0,
+          "routine": 11,
+          "unresolved": 8
+        },
+        "unresolved": {
+          "coordinated": 0,
+          "mistake": 0,
+          "routine": 0,
+          "unresolved": 39
+        }
+      }
+    },
+    "read_exception": {
+      "agree": 58,
+      "cases": 58,
+      "cohen_kappa": 1.0,
+      "consensus": {
+        "no": 19,
+        "unknown": 0,
+        "yes": 39
+      },
+      "disagree": 0,
+      "fraction_agree": 1.0,
+      "reviewer_one_by_reviewer_two": {
+        "no": {
+          "no": 19,
+          "unknown": 0,
+          "yes": 0
+        },
+        "unknown": {
+          "no": 0,
+          "unknown": 0,
+          "yes": 0
+        },
+        "yes": {
+          "no": 0,
+          "unknown": 0,
+          "yes": 39
+        }
+      }
+    }
+  },
+  "primary_cases": 58,
+  "primary_references": {
+    "completed_effect": {
+      "agree_with_reference": 58,
+      "reference_by_consensus": {
+        "no": {
+          "disagreement": 0,
+          "no": 26,
+          "unknown": 0,
+          "yes": 0
+        },
+        "unknown": {
+          "disagreement": 0,
+          "no": 0,
+          "unknown": 0,
+          "yes": 0
+        },
+        "yes": {
+          "disagreement": 0,
+          "no": 0,
+          "unknown": 0,
+          "yes": 32
+        }
+      }
+    },
+    "read_exception": {
+      "agree_with_reference": 58,
+      "reference_by_consensus": {
+        "no": {
+          "disagreement": 0,
+          "no": 19,
+          "unknown": 0,
+          "yes": 0
+        },
+        "unknown": {
+          "disagreement": 0,
+          "no": 0,
+          "unknown": 0,
+          "yes": 0
+        },
+        "yes": {
+          "disagreement": 0,
+          "no": 0,
+          "unknown": 0,
+          "yes": 39
+        }
+      }
+    }
+  },
+  "reviewer_sha256": {
+    "reviewer-one.csv": "923c1ef04d3da46cbba9332e7ade95e928a2964f3d320798e08495f50b4b7776",
+    "reviewer-two.csv": "5df15dc5d0fe23aa9eae96eb028f5887225c77348255240b1cc4076f66f2e1e1"
+  },
+  "reviewer_source": {
+    "reviewer-one.csv": "blinded_model_reviewer",
+    "reviewer-two.csv": "blinded_model_reviewer"
+  },
+  "script_intent_by_primary_consensus": {
+    "coordinated": {
+      "coordinated": 0,
+      "disagreement": 0,
+      "mistake": 0,
+      "routine": 0,
+      "unresolved": 2
+    },
+    "mistake": {
+      "coordinated": 0,
+      "disagreement": 0,
+      "mistake": 0,
+      "routine": 0,
+      "unresolved": 8
+    },
+    "routine": {
+      "coordinated": 0,
+      "disagreement": 0,
+      "mistake": 0,
+      "routine": 11,
+      "unresolved": 0
+    },
+    "unspecified": {
+      "coordinated": 0,
+      "disagreement": 8,
+      "mistake": 0,
+      "routine": 0,
+      "unresolved": 29
+    }
+  }
+}

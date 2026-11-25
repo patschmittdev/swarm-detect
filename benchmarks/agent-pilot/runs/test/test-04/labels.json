@@ -1,0 +1,112 @@
+{
+  "condition": "swarm_native",
+  "expected_subagents": 4,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 1,
+      "requests": 92
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 15,
+      "requests": 90
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "1d328b308b1e": [
+        "127.0.0.2"
+      ],
+      "1d7f263a2300": [
+        "127.0.0.2"
+      ],
+      "1f5a7fe7e349": [
+        "127.0.0.2"
+      ],
+      "30fba681f2d6": [
+        "127.0.0.2"
+      ],
+      "55b587bc99a3": [
+        "127.0.0.2"
+      ],
+      "60513334e040": [
+        "127.0.0.2"
+      ],
+      "63cb1db19d21": [
+        "127.0.0.2"
+      ],
+      "826983b4fb5b": [
+        "127.0.0.2"
+      ],
+      "8c7723e4ce8d": [
+        "127.0.0.2"
+      ],
+      "8d1461cc2f6e": [
+        "127.0.0.2"
+      ],
+      "956fa1ac297b": [
+        "127.0.0.2"
+      ],
+      "9d80bbd0d1d2": [
+        "127.0.0.1"
+      ],
+      "a2f559410e0f": [
+        "127.0.0.2"
+      ],
+      "bf6fa2101d22": [
+        "127.0.0.2"
+      ],
+      "d7502a24f4a8": [
+        "127.0.0.2"
+      ],
+      "ff6431b60ca7": [
+        "127.0.0.2"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 0,
+    "group_formed": true,
+    "negative_contaminated": null,
+    "processes": [
+      {
+        "address": "127.0.0.1",
+        "cross_process_note_reads": 0,
+        "doc_reads": 80,
+        "index": 0,
+        "note_writes": 1,
+        "requests": 92,
+        "subagents_completed": 4,
+        "subagents_spawned": 4,
+        "worked": true
+      }
+    ]
+  },
+  "positive": true,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": null,
+      "group_id": "p0",
+      "index": 0,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 4,
+      "requested_launcher": "claude",
+      "task_id": "orphans"
+    },
+    {
+      "address": "127.0.0.2",
+      "client": "browsing_users",
+      "group_id": "background",
+      "index": 1,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    }
+  ],
+  "run_id": "test-04"
+}

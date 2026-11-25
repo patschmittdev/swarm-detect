@@ -1,0 +1,202 @@
+{
+  "condition": "swarm_peers",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 1,
+      "requests": 94
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 1,
+      "requests": 87
+    },
+    "127.0.0.3": {
+      "distinct_token_ids": 1,
+      "requests": 55
+    },
+    "127.0.0.4": {
+      "distinct_token_ids": 1,
+      "requests": 34
+    },
+    "127.0.0.5": {
+      "distinct_token_ids": 15,
+      "requests": 86
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "02d42fb14fd1": [
+        "127.0.0.3"
+      ],
+      "13d3b41d611a": [
+        "127.0.0.5"
+      ],
+      "2ad288b04f23": [
+        "127.0.0.5"
+      ],
+      "30069b1b2eb7": [
+        "127.0.0.5"
+      ],
+      "3f0495894fe7": [
+        "127.0.0.5"
+      ],
+      "5354bdc7738a": [
+        "127.0.0.5"
+      ],
+      "5ad376c870f8": [
+        "127.0.0.5"
+      ],
+      "6690203c22d9": [
+        "127.0.0.5"
+      ],
+      "7be2d89dcedd": [
+        "127.0.0.5"
+      ],
+      "825b67725168": [
+        "127.0.0.2"
+      ],
+      "b02ab28d8cd1": [
+        "127.0.0.1"
+      ],
+      "ba91f40f0bde": [
+        "127.0.0.5"
+      ],
+      "c3536805431b": [
+        "127.0.0.5"
+      ],
+      "cc21957fab05": [
+        "127.0.0.5"
+      ],
+      "d6d6c98b12f6": [
+        "127.0.0.5"
+      ],
+      "d81ee3137bda": [
+        "127.0.0.5"
+      ],
+      "e9ba3f1312f6": [
+        "127.0.0.5"
+      ],
+      "f48c81ba020d": [
+        "127.0.0.5"
+      ],
+      "fb6315badc16": [
+        "127.0.0.4"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 38,
+    "group_formed": true,
+    "negative_contaminated": null,
+    "processes": [
+      {
+        "address": "127.0.0.1",
+        "cross_process_note_reads": 6,
+        "doc_reads": 60,
+        "index": 0,
+        "note_writes": 9,
+        "requests": 94,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.2",
+        "cross_process_note_reads": 6,
+        "doc_reads": 60,
+        "index": 1,
+        "note_writes": 8,
+        "requests": 87,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.3",
+        "cross_process_note_reads": 13,
+        "doc_reads": 20,
+        "index": 2,
+        "note_writes": 4,
+        "requests": 55,
+        "subagents_completed": null,
+        "subagents_spawned": null,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.4",
+        "cross_process_note_reads": 13,
+        "doc_reads": 10,
+        "index": 3,
+        "note_writes": 3,
+        "requests": 34,
+        "subagents_completed": null,
+        "subagents_spawned": null,
+        "worked": true
+      }
+    ]
+  },
+  "positive": true,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": null,
+      "group_id": "g0",
+      "index": 0,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "actions"
+    },
+    {
+      "address": "127.0.0.2",
+      "client": null,
+      "group_id": "g0",
+      "index": 1,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "actions"
+    },
+    {
+      "address": "127.0.0.3",
+      "client": null,
+      "group_id": "g0",
+      "index": 2,
+      "kind": "agent",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "native_subagents": 0,
+      "requested_launcher": "codex",
+      "task_id": "actions"
+    },
+    {
+      "address": "127.0.0.4",
+      "client": null,
+      "group_id": "g0",
+      "index": 3,
+      "kind": "agent",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "native_subagents": 0,
+      "requested_launcher": "codex",
+      "task_id": "actions"
+    },
+    {
+      "address": "127.0.0.5",
+      "client": "browsing_users",
+      "group_id": "background",
+      "index": 4,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    }
+  ],
+  "run_id": "test-09"
+}

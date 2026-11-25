@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "upstream_sha256": {
+    "fixtures.json": "905f6be0f2b4d85d22f4faaa02bcfe335046b99d6bd18ca7cde9e7fd6099a71f",
+    "labels.csv": "74ee7264fdcce08674e9d0cd7a138368793c458eb5db774d0d442c4320b6dc64",
+    "protocol.json": "70628792892c3bf55dfb5f2510ce12840c02248e74fd8216f24d33a0d595be00"
+  },
+  "population": "Replay every office case in the released partition. Preserve every executed dispatch, including copies never used, approved substitutes, mistakes, missing evidence and the cases with no dispatch. Reuse the existing intent and first-effect adjudications for whole runs. This retrospective contract receives zero independent promotion rounds.",
+  "dispatch_rule": "At each receipt arrival checkpoint identify each cross-worker delivery with an earlier approval from the configured authority. Require the exact approval handle selected by dispatch, ticket and document version. Warn once for that delivery on positive exclusion from the complete recipient list. Missing, invalid or mismatched evidence is unknown. A later approval changes subsequent dispatches only.",
+  "commit_rule": "Require the identical delivery and approval plus an output transaction that consumed that delivered version under the same ticket and recipient. Only a complete sealed receipt stream establishes a quiet negative for the receipt-based completed-use comparison.",
+  "peer_rule": "Use the released peer-read proxy on native events. For delivery-specific timing, credit a triggering read only when the editor actually opened the exact delivered input for that handle. Retain the count of proxy alarms on independent copies or other versions separately.",
+  "effect": "Record the approval at dispatch from the office register and the first actual submitted output using that exact delivery, recipient, ticket and version. A committed use by an excluded recipient is positive. An allowed recipient or a delivery without such a use is negative. A use with no authority is unlabelled. The evaluator retains these transaction witnesses before audit loss or delay.",
+  "timing": "A warning must identify the same delivery as the effect. Its first observed arrival must be strictly before the actual first effect step. Equality and later arrival get separate counts. Unused deliveries remain in the warning-cost denominator. Count warnings on different deliveries within a positive case separately. Whole-case strictly early timing uses the delivery responsible for the labelled first effect.",
+  "decision": "Report counts, definite and unknown outcomes, false reviews, matched lead times and case and delivery denominators by frozen split and workflow. Missing alerts stay in recall denominators. Case intent is independently scored as supplied by the earlier single-author contract. These purposive cases support conformance and cannot establish a deployment false-alert rate."
+}

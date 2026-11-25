@@ -1,0 +1,60 @@
+{
+  "agents": null,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "lookalike",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:25:52+00:00",
+  "mix": [
+    "retry_storm",
+    "many_sessions",
+    "crawler"
+  ],
+  "processes": [
+    {
+      "client": "retry_storm",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 0,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    },
+    {
+      "client": "many_sessions",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 1,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    },
+    {
+      "client": "crawler",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 2,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    }
+  ],
+  "run_id": "test-23",
+  "runner_versions": {},
+  "seed": 1791516034,
+  "service_seed": 2065512338,
+  "started_utc": "2026-11-24T18:23:22+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

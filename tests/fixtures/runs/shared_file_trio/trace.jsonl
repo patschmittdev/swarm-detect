@@ -1,0 +1,11 @@
+{"agent":"a-8b14d6a2","args":{"digest":"0f93e53b4eaa67d8","size":4},"content":"next","provenance":null,"result":{"size":4,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":0,"target":"f-a53d1c07","tick":0,"tool":"write"}
+{"agent":"a-27f90c5e","args":{},"content":"next","provenance":null,"result":{"size":4,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":1,"target":"f-a53d1c07","tick":1,"tool":"read"}
+{"agent":"a-50d18f7c","args":{},"content":null,"provenance":null,"result":{"size":0,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":2,"target":"h-869c3e40","tick":1,"tool":"scan"}
+{"agent":"a-27f90c5e","args":{"digest":"b24d6d33736ecd56","size":5},"content":"ready","provenance":1,"result":{"size":5,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":3,"target":"f-72c0b8e4","tick":2,"tool":"write"}
+{"agent":"a-e6a352b8","args":{},"content":"ready","provenance":null,"result":{"size":5,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":4,"target":"f-72c0b8e4","tick":3,"tool":"read"}
+{"agent":"a-c7942a06","args":{"prefix":"notes/"},"content":null,"provenance":null,"result":{"size":1,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":5,"target":"h-4db27f10","tick":3,"tool":"list"}
+{"agent":"a-e6a352b8","args":{"digest":"a4c3ed04a95a3da1","size":4},"content":"done","provenance":4,"result":{"size":4,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":6,"target":"f-a53d1c07","tick":4,"tool":"write"}
+{"agent":"a-8b14d6a2","args":{},"content":"done","provenance":null,"result":{"size":4,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":7,"target":"f-a53d1c07","tick":5,"tool":"read"}
+{"agent":"a-8b14d6a2","args":{},"content":null,"provenance":7,"result":{"size":0,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":8,"target":"h-51f8d4a6","tick":6,"tool":"scan"}
+{"agent":"a-27f90c5e","args":{},"content":null,"provenance":1,"result":{"size":0,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":9,"target":"h-51f8d4a6","tick":6,"tool":"scan"}
+{"agent":"a-e6a352b8","args":{},"content":null,"provenance":4,"result":{"size":0,"status":"ok"},"run_id":"74c93be216f8a05d","schema_version":1,"seq":10,"target":"h-51f8d4a6","tick":6,"tool":"scan"}

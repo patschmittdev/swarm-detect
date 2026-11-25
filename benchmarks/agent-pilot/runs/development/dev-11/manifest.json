@@ -1,0 +1,105 @@
+{
+  "agents": 4,
+  "background": true,
+  "batch_parallel": 3,
+  "condition": "duplicates",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T17:56:19+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 80.84,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "actions",
+      "usage": {
+        "total_tokens": 24671
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 44.92,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "actions",
+      "usage": {
+        "cache_creation_input_tokens": 46032,
+        "cache_read_input_tokens": 252246,
+        "input_tokens": 18,
+        "num_turns": 14,
+        "output_tokens": 6801,
+        "total_cost_usd": 0.27739859999999994
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 85.17,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "actions",
+      "usage": {
+        "total_tokens": 49181
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 108.81,
+      "exit_code": 0,
+      "index": 3,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "actions",
+      "usage": {
+        "cache_creation_input_tokens": 61657,
+        "cache_read_input_tokens": 1017432,
+        "input_tokens": 50,
+        "num_turns": 87,
+        "output_tokens": 17134,
+        "total_cost_usd": 0.5198112
+      }
+    },
+    {
+      "client": "browsing_users",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 4,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    }
+  ],
+  "run_id": "dev-11",
+  "runner_versions": {
+    "claude": "2.1.331",
+    "codex": "0.172.0"
+  },
+  "seed": 4137981277,
+  "service_seed": 1552975119,
+  "started_utc": "2026-11-24T17:53:48+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

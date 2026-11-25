@@ -1,0 +1,146 @@
+{
+  "condition": "lookalike",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 4,
+      "requests": 364
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 1,
+      "requests": 675
+    },
+    "127.0.0.3": {
+      "distinct_token_ids": 21,
+      "requests": 120
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "07271e867a2a": [
+        "127.0.0.1"
+      ],
+      "1d8f44ac87b3": [
+        "127.0.0.3"
+      ],
+      "1f2dfe1ce07d": [
+        "127.0.0.3"
+      ],
+      "24148a75564b": [
+        "127.0.0.3"
+      ],
+      "257e799fb873": [
+        "127.0.0.3"
+      ],
+      "2a0fde78ee12": [
+        "127.0.0.1"
+      ],
+      "3a33932e6076": [
+        "127.0.0.3"
+      ],
+      "3fe35226b334": [
+        "127.0.0.3"
+      ],
+      "44f230e050fb": [
+        "127.0.0.1"
+      ],
+      "481786c09049": [
+        "127.0.0.3"
+      ],
+      "4ad0cd1002be": [
+        "127.0.0.3"
+      ],
+      "5805b6059e3e": [
+        "127.0.0.3"
+      ],
+      "6edc5d4fe54f": [
+        "127.0.0.3"
+      ],
+      "751bd3b5dde5": [
+        "127.0.0.3"
+      ],
+      "83314bbd3497": [
+        "127.0.0.1"
+      ],
+      "a6a7dccdfe16": [
+        "127.0.0.3"
+      ],
+      "b4243bc7850e": [
+        "127.0.0.3"
+      ],
+      "c60b7565b4eb": [
+        "127.0.0.3"
+      ],
+      "ca0431192caa": [
+        "127.0.0.3"
+      ],
+      "d0262bb3b256": [
+        "127.0.0.3"
+      ],
+      "e1c8146dfe42": [
+        "127.0.0.3"
+      ],
+      "e838c4aec375": [
+        "127.0.0.3"
+      ],
+      "ea27dc4c49d9": [
+        "127.0.0.3"
+      ],
+      "ec3141701cfb": [
+        "127.0.0.3"
+      ],
+      "ee8487423ce7": [
+        "127.0.0.3"
+      ],
+      "faea77ac1d7b": [
+        "127.0.0.2"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 0,
+    "group_formed": null,
+    "negative_contaminated": null,
+    "processes": []
+  },
+  "positive": false,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": "scheduled_fleet",
+      "group_id": "p0",
+      "index": 0,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    },
+    {
+      "address": "127.0.0.2",
+      "client": "crawler",
+      "group_id": "p1",
+      "index": 1,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    },
+    {
+      "address": "127.0.0.3",
+      "client": "browsing_users",
+      "group_id": "background",
+      "index": 2,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    }
+  ],
+  "run_id": "dev-06"
+}

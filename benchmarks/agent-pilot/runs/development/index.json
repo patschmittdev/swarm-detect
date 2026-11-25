@@ -1,0 +1,225 @@
+{
+  "review_sha256": "c625180d16370ecac58ce1334247ab3198c2132802c14acd2a99b5a4fe9a759f",
+  "runs": [
+    {
+      "condition": "swarm_native",
+      "dropped_keys": {
+        "manifest.json": 1
+      },
+      "files": {
+        "completion.json": "a184225582582445f1d6b53454301396366debb306ae132bbeec6618fa8da122",
+        "labels.json": "e2e9ff7888cef6870d7aead320dc7e6f964a2370fae7de5a5b0e80ba9b18e963",
+        "manifest.json": "79cb3e9afb644589d4dd6f5264c5f6faf05e6fd0fa6a41ad9c69b09c0bc84801",
+        "notes.json": "729e80d8be728a544e53fce289e16b0ac7b7dbecc68492e8346b120f5c64aca9",
+        "requests.jsonl.gz": "163a1ca3439f9ed2edf8ec057bc246bebf33321dde91c1aab4d8b5b5f05bfb13"
+      },
+      "positive": true,
+      "redactions": {},
+      "requests": 99,
+      "run": "dev-01",
+      "seed": 467751098
+    },
+    {
+      "condition": "swarm_peers",
+      "dropped_keys": {
+        "manifest.json": 3
+      },
+      "files": {
+        "completion.json": "a18670e62cfdd05ee3e79cea59c6c93d2883d2bdf957dfe1c0b847a9b705d4d9",
+        "labels.json": "1f6c6a858f500d5e2172ce82b47d8101d066c484cbd7cab96faeef59d4c5b0d2",
+        "manifest.json": "930735dc1e80f9a9e95f8808a1191cf729b6da993cbc844c3313662148be7d26",
+        "notes.json": "e119f1075849346faa5f7247aa185b603aae49bf1540d3c51b6b7432df93782a",
+        "requests.jsonl.gz": "bea4e4c06572ada9b713694388995ea15e74a5d204d005c519e943aab426a582"
+      },
+      "positive": true,
+      "redactions": {},
+      "requests": 171,
+      "run": "dev-02",
+      "seed": 4262417203
+    },
+    {
+      "condition": "single",
+      "dropped_keys": {
+        "manifest.json": 1
+      },
+      "files": {
+        "completion.json": "55adffc88caf0fb54fcabfc748f66d22038e48b223e6f48211ec0c00f87278f6",
+        "labels.json": "32d1137d5e8391bfa1b4414c6b8efb011da824a2afc6d07b7808c87fd584bfb6",
+        "manifest.json": "4da07ab6e9ff3ab9faf9014a71b3d3913e240a7e6653cc7df34ef47b2ef36785",
+        "notes.json": "e7ab6321a6a92bcc79b7260b9580811d66806cda4a753c8517a82c051cfe913e",
+        "requests.jsonl.gz": "e531374ce43d6d646936425ab334a1d903db4e1bfc49b35e964adbb16f559688"
+      },
+      "positive": false,
+      "redactions": {},
+      "requests": 85,
+      "run": "dev-03",
+      "seed": 2991502998
+    },
+    {
+      "condition": "independent",
+      "dropped_keys": {
+        "manifest.json": 4
+      },
+      "files": {
+        "completion.json": "0367dc8cc0df24f0f5680e3d7ddd0412e4ae8c0c564c4623e59dd4f262287da4",
+        "labels.json": "27b6ada95fbe79db0ef0b19f599745d8749956843407d14108328db3f0b93424",
+        "manifest.json": "54075a9e4f2f0ab2f5f29831a0f5588042103591e076ee5c8bd7b95ae05713f9",
+        "notes.json": "8537733d3ec6b779139f4a66603aef33349678993446e045096c55c3a1e9bcb6",
+        "requests.jsonl.gz": "bfa35c7dbdb3ee93c453a5d75f9612fa53d60892e54ae75e1b442ff2e1321112"
+      },
+      "positive": false,
+      "redactions": {
+        "requests.jsonl:path": 2
+      },
+      "requests": 380,
+      "run": "dev-04",
+      "seed": 204772295
+    },
+    {
+      "condition": "duplicates",
+      "dropped_keys": {
+        "manifest.json": 3
+      },
+      "files": {
+        "completion.json": "b94e3a9951ec1bfe9c9260c77087ea1d5460ed6cfbc95a1675201bba97bed9a3",
+        "labels.json": "ddbf7a462cb86a1ef5784d3148101ef3d016a172e0333b5c56f24467dd32ef18",
+        "manifest.json": "18057886917a7e15a6d46b40e03487bfe944302716383b8d7970dd2294b9df7f",
+        "notes.json": "6587344cc0b56ca68fc5d8bf0aad7068a5ea116db6c8dd2a8e540fc741aac390",
+        "requests.jsonl.gz": "88b3f1c1ed95319a37d88ac887c607959477f88b65591394b52f67fb1cc4735b"
+      },
+      "positive": false,
+      "redactions": {},
+      "requests": 279,
+      "run": "dev-05",
+      "seed": 3571060487
+    },
+    {
+      "condition": "lookalike",
+      "dropped_keys": {
+        "manifest.json": 3
+      },
+      "files": {
+        "completion.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+        "labels.json": "5a47182a58bd7b12b0aad1508092c5522cc0606339a6d7c3e2f61c7ab17a56fc",
+        "manifest.json": "34df2bcff4878304ead72d17bfb2df57b98d43766dafd007e326b17b5e4c5a5f",
+        "notes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "requests.jsonl.gz": "917ba9b2814bdfbe15a6f7b4ebc16eb55acefeddb4bc19cdd3f9ac59355cc265"
+      },
+      "positive": false,
+      "redactions": {},
+      "requests": 1159,
+      "run": "dev-06",
+      "seed": 207963888
+    },
+    {
+      "condition": "swarm_native",
+      "dropped_keys": {
+        "manifest.json": 2
+      },
+      "files": {
+        "completion.json": "c353c6e507127b410df7a892cc77f3877bb22b42f7e2e4303d77918b7eee6efe",
+        "labels.json": "e42877b8b2abfeb1237ac5a47959d1c7771ce40845eea3643f966e0b141207d9",
+        "manifest.json": "6c27947933c534b8cb53367be1cb42cee7e23e3f210720a0642f25f1d6dc409f",
+        "notes.json": "dc0f9e87c1e84082a4d12eb646a1d4f2c46895a93e448974fe2e01df437fa80b",
+        "requests.jsonl.gz": "6990819d288bab8554e86045edf22b84bf1792ff85dbb55aafad7ea85d30137c"
+      },
+      "positive": true,
+      "redactions": {},
+      "requests": 183,
+      "run": "dev-07",
+      "seed": 547367902
+    },
+    {
+      "condition": "swarm_native",
+      "dropped_keys": {
+        "manifest.json": 1
+      },
+      "files": {
+        "completion.json": "a184225582582445f1d6b53454301396366debb306ae132bbeec6618fa8da122",
+        "labels.json": "7512fdc95fabbd02d106e2582025eccbc1133527ae9ab2f573be68866b0c0910",
+        "manifest.json": "8843352e02b8bbc5358d85b0ba30621269b96345e45c416f41188295a4e0e752",
+        "notes.json": "06e188a063f2db8d6f7cf3f012ca9176b6f05106cba782e6e746f883f278f9a8",
+        "requests.jsonl.gz": "d91cafe400b73215c8f9c89f5ee9e441aec45f1306b15d029c373de10b30db94"
+      },
+      "positive": true,
+      "redactions": {},
+      "requests": 99,
+      "run": "dev-08",
+      "seed": 1687806192
+    },
+    {
+      "condition": "swarm_peers",
+      "dropped_keys": {
+        "manifest.json": 4
+      },
+      "files": {
+        "completion.json": "a18670e62cfdd05ee3e79cea59c6c93d2883d2bdf957dfe1c0b847a9b705d4d9",
+        "labels.json": "7a2efc156a591616e8cd92c9a7b7a161a90971c3b5dd2cafbd4c9a65eda64bc1",
+        "manifest.json": "0de16f46dae9b803e9e73401b9aa4a67d9d6fca65806e685cb06f2bbc68e6473",
+        "notes.json": "ae8205e08d12710b277ef67ebeeaca832e2eb387a04f0cea2a77ab5361388658",
+        "requests.jsonl.gz": "e2a89b3a1d867d2668010d049769977d737b0fa55d6b801cc98f64181a4f24ab"
+      },
+      "positive": true,
+      "redactions": {},
+      "requests": 254,
+      "run": "dev-09",
+      "seed": 10089862
+    },
+    {
+      "condition": "swarm_peers",
+      "dropped_keys": {
+        "manifest.json": 4
+      },
+      "files": {
+        "completion.json": "55adffc88caf0fb54fcabfc748f66d22038e48b223e6f48211ec0c00f87278f6",
+        "labels.json": "e63945e4a84eab9d82a8d54e42c63ad18a1bc3ee5b7a88746cc126cff2b5baac",
+        "manifest.json": "91a169bb8d44f4c9f6ff9e296f9cc1bcff4a2d718a64544ff54e1a2cce7ebd63",
+        "notes.json": "fe95d1c640aa7c3aedf9e3e5ee0c86d731e9a37d8c62ed4abe67acc85bd507d3",
+        "requests.jsonl.gz": "fec866beb75686d9ed2ce0b689c4e9d4fcee6c12045640703c8ac67f58804a30"
+      },
+      "positive": true,
+      "redactions": {},
+      "requests": 261,
+      "run": "dev-10",
+      "seed": 1735210037
+    },
+    {
+      "condition": "duplicates",
+      "dropped_keys": {
+        "manifest.json": 5
+      },
+      "files": {
+        "completion.json": "a3505a960ad52d6126202c56a581bb181b1997dd943f469bf6000b44e9ec33fc",
+        "labels.json": "ffce10b04d79bdcaf12b4ac67c72fff074398363ee9094db966f0ae75e1bae3d",
+        "manifest.json": "d8b5114ed3f66beb6be505d3b03cfd549565439b7b0578d68cc363fd898edc4b",
+        "notes.json": "72a69a7bd43ea5e1f8bcb37d6f129858ba24b9d67b058ec86a3abf47ec86baa0",
+        "requests.jsonl.gz": "f1e1d46c1f9b1053383f0086d6c9e1508c47aef507b603c98fbaec4ba66c9c32"
+      },
+      "positive": false,
+      "redactions": {},
+      "requests": 464,
+      "run": "dev-11",
+      "seed": 4137981277
+    },
+    {
+      "condition": "independent",
+      "dropped_keys": {
+        "manifest.json": 3
+      },
+      "files": {
+        "completion.json": "ef717a2eb5c783564c41861595d0ae7d200f7004c4f68fd1a23b59b236f2a190",
+        "labels.json": "c05b8d0fc5a26d0ba2f1f040405c22fe44fc4ce68a4b29866efdde9fe251ecbe",
+        "manifest.json": "045c1e05175f097c1ca820e81cc6c1fba8d51311d772d68fc7a2dc3002a592b5",
+        "notes.json": "1b9b6139b5398a82ed6bbcd68cf9ff43efd643bfb791f7d9874bbd8971daeb01",
+        "requests.jsonl.gz": "0126285fb7309c0b94a11e110ceee7ea77116b93355b50ae5a404492fee0a6a3"
+      },
+      "positive": false,
+      "redactions": {},
+      "requests": 277,
+      "run": "dev-12",
+      "seed": 1317824981
+    }
+  ],
+  "set": "development",
+  "values_reviewed": 89
+}

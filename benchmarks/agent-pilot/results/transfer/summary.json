@@ -1,0 +1,369 @@
+{
+  "note": "aggregates only; names and pages replaced by unsaved salted hashes",
+  "source_sha256": {
+    "fleet/__init__.py": "f38ce8e808b0e8ffda9e2127532705021b6520ed408f18773e81ef2634ee0a78",
+    "fleet/__main__.py": "81713129171c29f87f6681ffae3a89b70094c4b6463a8af915bff434d3d39e27",
+    "fleet/baselines.py": "2a55ce62f0dcb6be0b2814532c686ad2a8b81c9473884b47b1a65e1155b69832",
+    "fleet/detector.py": "0a097fbb57b21a7b3b54cacc62e95b3b4c0c736d0a7c5a065258a5f21ee42674",
+    "fleet/events.py": "fdc35d7f834f86e476228f2659540ae27839a630bc6ee31e9410b34710ad88f3",
+    "study/__init__.py": "f3cf3c1e7eb88aed4f8c162961d578dc77d75e09064c578fca0be3e52de65aac",
+    "study/__main__.py": "4495bdafbdd2f4fe1e9373ace73740a7ef1666ec29c906f58641d1b59b448ab7",
+    "study/fetch.py": "7cd462941410dbb527ceb74c47193f20bbe84d498a12c2cff6ef71bbe88268ef",
+    "study/fleet_api.py": "73f33601456030a0f9f5b9b591d84de41d8540c99764f22d636747505ed1d65d",
+    "study/folding.py": "e6cd124fcb056ac64f8b0515c981e8610f33e86cabaef76db8bf947f8bd76150",
+    "study/freeze.py": "3d774008dd99248e7bf2fcace873fa5f02ae43e3f270155cf1f3b5a0b2e1fbda",
+    "study/pilot.py": "86058f036e4aaa61192ad00d28bacde5220da127d473f10bc4121a7fce96dd39",
+    "study/stats.py": "1457eb4532ddb5f177ba93e0cc249e29a8197828194a24fad516f075e1218b40",
+    "study/transfer.py": "604d6760821d7709d365cc6a6487db7f3423fdf1289266b92e072939b1c549af"
+  },
+  "incident": {
+    "sha256": "60df4a515178230aa952d9f64f6215aea4bd95ab2f05e31e484cf9b887e3f793",
+    "rows": 14591,
+    "blank_name_rows": 899,
+    "eligible_days": 15,
+    "first_retained_edit_day": "2026-05-24"
+  },
+  "official": true,
+  "record": {
+    "set": "transfer",
+    "freeze_sha256": "8b451d9b68d9f1b2a386ce498500301c473fdc470e7c838e6081a37a43271f5f",
+    "index_sha256": null,
+    "scored_utc": "2026-11-24T18:26:56Z"
+  },
+  "control": {
+    "rows": 17442,
+    "by_bot_flag": {
+      "none": 16850,
+      "name": 379,
+      "group": 41,
+      "name+group": 172,
+      "other": 0
+    },
+    "sha256": "70bda4e78269c4084f3765e1fbebf39b2a72117efd4991d24b4bf0f580899739",
+    "bytes": 82295203,
+    "eligible_days": 306
+  },
+  "detector": {
+    "identity": {
+      "control": {
+        "flagged": 0,
+        "of": 306,
+        "rate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.011982789266014648
+      },
+      "incident": {
+        "flagged": 1,
+        "of": 15,
+        "rate": 0.06666666666666667,
+        "ci95_low": 0.0016864302413526766,
+        "ci95_high": 0.3194845665783034,
+        "first": {
+          "window": "2026-06-16",
+          "days_after_first_edit": 23.748391203703704,
+          "edits_through_window": 3832,
+          "days_after_notice": 14.025
+        }
+      }
+    },
+    "no_identity": {
+      "control": {
+        "flagged": 0,
+        "of": 306,
+        "rate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.011982789266014648
+      },
+      "incident": {
+        "flagged": 0,
+        "of": 15,
+        "rate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.21801936091053403,
+        "first": null
+      },
+      "note": "With identity removed and no reads the detector's score is zero by construction; this result shows a limit of the detector, not a test of it."
+    }
+  },
+  "rules": {
+    "note": "The two control-calibrated rules flag zero control days by construction: their thresholds are the control's own maxima.",
+    "edits": {
+      "control_max": 330,
+      "control": {
+        "flagged": 0,
+        "of": 306,
+        "rate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.011982789266014648
+      },
+      "incident": {
+        "flagged": 8,
+        "of": 15,
+        "rate": 0.5333333333333333,
+        "ci95_low": 0.26586134727739663,
+        "ci95_high": 0.7873332704806921,
+        "first": {
+          "window": "2026-05-26",
+          "days_after_first_edit": 2.7483912037037035,
+          "edits_through_window": 471,
+          "days_after_notice": -6.975
+        }
+      }
+    },
+    "names": {
+      "control_max": 14,
+      "control": {
+        "flagged": 0,
+        "of": 306,
+        "rate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.011982789266014648
+      },
+      "incident": {
+        "flagged": 15,
+        "of": 15,
+        "rate": 1.0,
+        "ci95_low": 0.7819806390894659,
+        "ci95_high": 1.0,
+        "first": {
+          "window": "2026-05-24",
+          "days_after_first_edit": 0.7483912037037037,
+          "edits_through_window": 35,
+          "days_after_notice": -8.975
+        }
+      }
+    },
+    "template_folding": {
+      "incident": {
+        "bins": 948,
+        "seeds": 20,
+        "seeds_never_alarm": 0,
+        "first_alarm_days_after_first_edit": {
+          "min": 4.456724537037037,
+          "median": 23.623391203703704,
+          "max": 23.623391203703704
+        },
+        "first_alarm_edits_through_bin": {
+          "min": 673,
+          "median": 3105.0,
+          "max": 3105
+        },
+        "first_alarm_days_after_notice": {
+          "min": -5.266666666666667,
+          "median": 13.9,
+          "max": 13.9
+        },
+        "eligible_days_with_alarm": {
+          "min": 2,
+          "median": 3.0,
+          "max": 4
+        },
+        "eligible_days": 15,
+        "per_seed": [
+          {
+            "seed": 0,
+            "alarm_bins": 4,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 1,
+            "alarm_bins": 4,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 2,
+            "alarm_bins": 2,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 3,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.581724537037037,
+              "edits_through_window": 2715,
+              "days_after_notice": 13.858333333333333
+            }
+          },
+          {
+            "seed": 4,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.581724537037037,
+              "edits_through_window": 2715,
+              "days_after_notice": 13.858333333333333
+            }
+          },
+          {
+            "seed": 5,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.581724537037037,
+              "edits_through_window": 2715,
+              "days_after_notice": 13.858333333333333
+            }
+          },
+          {
+            "seed": 6,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 7,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.581724537037037,
+              "edits_through_window": 2715,
+              "days_after_notice": 13.858333333333333
+            }
+          },
+          {
+            "seed": 8,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 9,
+            "alarm_bins": 4,
+            "eligible_days_with_alarm": 4,
+            "first_alarm": {
+              "days_after_first_edit": 4.456724537037037,
+              "edits_through_window": 673,
+              "days_after_notice": -5.266666666666667
+            }
+          },
+          {
+            "seed": 10,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 11,
+            "alarm_bins": 2,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.581724537037037,
+              "edits_through_window": 2715,
+              "days_after_notice": 13.858333333333333
+            }
+          },
+          {
+            "seed": 12,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 13,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 14,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 15,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.581724537037037,
+              "edits_through_window": 2715,
+              "days_after_notice": 13.858333333333333
+            }
+          },
+          {
+            "seed": 16,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 3,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 17,
+            "alarm_bins": 3,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 18,
+            "alarm_bins": 2,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.623391203703704,
+              "edits_through_window": 3105,
+              "days_after_notice": 13.9
+            }
+          },
+          {
+            "seed": 19,
+            "alarm_bins": 2,
+            "eligible_days_with_alarm": 2,
+            "first_alarm": {
+              "days_after_first_edit": 23.581724537037037,
+              "edits_through_window": 2715,
+              "days_after_notice": 13.858333333333333
+            }
+          }
+        ],
+        "distance_convention": "end of the first alarming hourly bin"
+      },
+      "control": "not applicable (no text)"
+    }
+  }
+}

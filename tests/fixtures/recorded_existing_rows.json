@@ -1,0 +1,1237 @@
+{
+ "rows": {
+  "V0 aggregation": [
+   {
+    "method": "split",
+    "metric": "fitting_runs",
+    "n": 194,
+    "total": 194
+   },
+   {
+    "method": "split",
+    "metric": "calibration_runs",
+    "n": 84,
+    "total": 84
+   },
+   {
+    "method": "split",
+    "metric": "calibration_controls",
+    "n": 61,
+    "total": 61
+   },
+   {
+    "method": "split",
+    "metric": "test_runs",
+    "n": 118,
+    "total": 118
+   },
+   {
+    "method": "volume",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.3476234870713087
+   },
+   {
+    "high": 0.6482739825581396,
+    "low": 0.41341751453488373,
+    "method": "volume",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.5250726744186046
+   },
+   {
+    "high": 0.10717919825507058,
+    "low": 0.0,
+    "method": "volume",
+    "metric": "detection_rate",
+    "n": 0,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.09760871102560763,
+    "low": 0.011933798077408367,
+    "method": "volume",
+    "metric": "false_positive_rate",
+    "n": 3,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.03488372093023256
+   },
+   {
+    "method": "volume",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.3495602790582316
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "volume",
+    "metric": "online_false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.24218154728387864,
+    "low": 0.032401551298366194,
+    "method": "volume",
+    "metric": "detection_coverage",
+    "n": 3,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.09375
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_precision",
+    "n": 0,
+    "total": 22
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_recall",
+    "n": 0,
+    "total": 97
+   },
+   {
+    "method": "logistic",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.3548327041574417
+   },
+   {
+    "high": 0.5523392078488373,
+    "low": 0.31938135901162795,
+    "method": "logistic",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.44204215116279066
+   },
+   {
+    "high": 0.15744263820012555,
+    "low": 0.005537860164003122,
+    "method": "logistic",
+    "metric": "detection_rate",
+    "n": 1,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.03125
+   },
+   {
+    "high": 0.09760871102560763,
+    "low": 0.011933798077408367,
+    "method": "logistic",
+    "metric": "false_positive_rate",
+    "n": 3,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.03488372093023256
+   },
+   {
+    "method": "logistic",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.372810786317619
+   },
+   {
+    "high": 0.08088014562632054,
+    "low": 0.006400926204270858,
+    "method": "logistic",
+    "metric": "online_false_positive_rate",
+    "n": 2,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.023255813953488372
+   },
+   {
+    "high": 0.15744263820012555,
+    "low": 0.005537860164003122,
+    "method": "logistic",
+    "metric": "detection_coverage",
+    "n": 1,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.03125
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_precision",
+    "n": 5,
+    "total": 38
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_recall",
+    "n": 5,
+    "total": 97
+   },
+   {
+    "method": "boosted",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.38724579034289225
+   },
+   {
+    "high": 0.6091115552325581,
+    "low": 0.3634856468023256,
+    "method": "boosted",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.4878270348837209
+   },
+   {
+    "high": 0.10717919825507058,
+    "low": 0.0,
+    "method": "boosted",
+    "metric": "detection_rate",
+    "n": 0,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.042758197285742205,
+    "low": 0.0,
+    "method": "boosted",
+    "metric": "false_positive_rate",
+    "n": 0,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "method": "boosted",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.4059191505155594
+   },
+   {
+    "high": 0.09760871102560763,
+    "low": 0.011933798077408367,
+    "method": "boosted",
+    "metric": "online_false_positive_rate",
+    "n": 3,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.03488372093023256
+   },
+   {
+    "high": 0.15744263820012555,
+    "low": 0.005537860164003122,
+    "method": "boosted",
+    "metric": "detection_coverage",
+    "n": 1,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.03125
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_precision",
+    "n": 0,
+    "total": 0
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_recall",
+    "n": 0,
+    "total": 97
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_precision",
+    "n": 61,
+    "total": 523
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_recall",
+    "n": 61,
+    "total": 97
+   }
+  ],
+  "V1 aggregation": [
+   {
+    "method": "split",
+    "metric": "fitting_runs",
+    "n": 194,
+    "total": 194
+   },
+   {
+    "method": "split",
+    "metric": "calibration_runs",
+    "n": 84,
+    "total": 84
+   },
+   {
+    "method": "split",
+    "metric": "calibration_controls",
+    "n": 61,
+    "total": 61
+   },
+   {
+    "method": "split",
+    "metric": "test_runs",
+    "n": 118,
+    "total": 118
+   },
+   {
+    "method": "volume",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.3476234870713087
+   },
+   {
+    "high": 0.6482739825581396,
+    "low": 0.41341751453488373,
+    "method": "volume",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.5250726744186046
+   },
+   {
+    "high": 0.10717919825507058,
+    "low": 0.0,
+    "method": "volume",
+    "metric": "detection_rate",
+    "n": 0,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.09760871102560763,
+    "low": 0.011933798077408367,
+    "method": "volume",
+    "metric": "false_positive_rate",
+    "n": 3,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.03488372093023256
+   },
+   {
+    "high": 0.2280953723541983,
+    "low": 0.0,
+    "method": "volume",
+    "metric": "detection_rate_size_2",
+    "n": 0,
+    "note": "",
+    "total": 13,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.2424940066552408,
+    "low": 0.0,
+    "method": "volume",
+    "metric": "detection_rate_size_3",
+    "n": 0,
+    "note": "",
+    "total": 12,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.3543304350666873,
+    "low": 0.0,
+    "method": "volume",
+    "metric": "detection_rate_size_5",
+    "n": 0,
+    "note": "",
+    "total": 7,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.6610491071428573,
+    "low": 0.3459263392857143,
+    "method": "volume",
+    "metric": "sharing_control_auroc",
+    "n": 46,
+    "note": "",
+    "total": 46,
+    "valid": 200,
+    "value": 0.5044642857142857
+   },
+   {
+    "method": "volume",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.3495602790582316
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "volume",
+    "metric": "online_false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.24218154728387864,
+    "low": 0.032401551298366194,
+    "method": "volume",
+    "metric": "detection_coverage",
+    "n": 3,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.09375
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_precision",
+    "n": 0,
+    "total": 0
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_recall",
+    "n": 0,
+    "total": 97
+   },
+   {
+    "method": "logistic",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.7167563780409693
+   },
+   {
+    "high": 0.9614871002906976,
+    "low": 0.873155886627907,
+    "method": "logistic",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.920421511627907
+   },
+   {
+    "high": 0.6067440886314801,
+    "low": 0.2816533111504037,
+    "method": "logistic",
+    "metric": "detection_rate",
+    "n": 14,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.4375
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "logistic",
+    "metric": "false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.42234631019482527,
+    "low": 0.04325817835808124,
+    "method": "logistic",
+    "metric": "detection_rate_size_2",
+    "n": 2,
+    "note": "",
+    "total": 13,
+    "valid": 0,
+    "value": 0.15384615384615385
+   },
+   {
+    "high": 0.7462184023662939,
+    "low": 0.2537815976337061,
+    "method": "logistic",
+    "metric": "detection_rate_size_3",
+    "n": 6,
+    "note": "",
+    "total": 12,
+    "valid": 0,
+    "value": 0.5
+   },
+   {
+    "high": 0.9743203756552564,
+    "low": 0.48687217072568123,
+    "method": "logistic",
+    "metric": "detection_rate_size_5",
+    "n": 6,
+    "note": "",
+    "total": 7,
+    "valid": 0,
+    "value": 0.8571428571428571
+   },
+   {
+    "high": 0.677818080357143,
+    "low": 0.3322823660714286,
+    "method": "logistic",
+    "metric": "sharing_control_auroc",
+    "n": 46,
+    "note": "",
+    "total": 46,
+    "valid": 200,
+    "value": 0.5111607142857143
+   },
+   {
+    "method": "logistic",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.7888844397992653
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "logistic",
+    "metric": "online_false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.5773997512461714,
+    "low": 0.2551963484266544,
+    "method": "logistic",
+    "metric": "detection_coverage",
+    "n": 13,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.40625
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_precision",
+    "n": 52,
+    "total": 103
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_recall",
+    "n": 52,
+    "total": 97
+   },
+   {
+    "method": "boosted",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.6711847885870272
+   },
+   {
+    "high": 0.9671329941860465,
+    "low": 0.8769803779069767,
+    "method": "boosted",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.9255087209302325
+   },
+   {
+    "high": 0.5773997512461714,
+    "low": 0.2551963484266544,
+    "method": "boosted",
+    "metric": "detection_rate",
+    "n": 13,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.40625
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "boosted",
+    "metric": "false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.3331395092109958,
+    "low": 0.013710421242556586,
+    "method": "boosted",
+    "metric": "detection_rate_size_2",
+    "n": 1,
+    "note": "",
+    "total": 13,
+    "valid": 0,
+    "value": 0.07692307692307693
+   },
+   {
+    "high": 0.7462184023662939,
+    "low": 0.2537815976337061,
+    "method": "boosted",
+    "metric": "detection_rate_size_3",
+    "n": 6,
+    "note": "",
+    "total": 12,
+    "valid": 0,
+    "value": 0.5
+   },
+   {
+    "high": 0.9743203756552564,
+    "low": 0.48687217072568123,
+    "method": "boosted",
+    "metric": "detection_rate_size_5",
+    "n": 6,
+    "note": "",
+    "total": 7,
+    "valid": 0,
+    "value": 0.8571428571428571
+   },
+   {
+    "high": 0.7189732142857144,
+    "low": 0.36928013392857145,
+    "method": "boosted",
+    "metric": "sharing_control_auroc",
+    "n": 46,
+    "note": "",
+    "total": 46,
+    "valid": 200,
+    "value": 0.5424107142857143
+   },
+   {
+    "method": "boosted",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.928836668533854
+   },
+   {
+    "high": 0.14396140641036845,
+    "low": 0.03236541450992136,
+    "method": "boosted",
+    "metric": "online_false_positive_rate",
+    "n": 6,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.06976744186046512
+   },
+   {
+    "high": 0.5474559264692255,
+    "low": 0.22933887309454212,
+    "method": "boosted",
+    "metric": "detection_coverage",
+    "n": 12,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.375
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_precision",
+    "n": 50,
+    "total": 99
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_recall",
+    "n": 50,
+    "total": 97
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_precision",
+    "n": 97,
+    "total": 176
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_recall",
+    "n": 97,
+    "total": 97
+   }
+  ],
+  "V1 all": [
+   {
+    "method": "split",
+    "metric": "fitting_runs",
+    "n": 194,
+    "total": 194
+   },
+   {
+    "method": "split",
+    "metric": "calibration_runs",
+    "n": 84,
+    "total": 84
+   },
+   {
+    "method": "split",
+    "metric": "calibration_controls",
+    "n": 61,
+    "total": 61
+   },
+   {
+    "method": "split",
+    "metric": "test_runs",
+    "n": 118,
+    "total": 118
+   },
+   {
+    "method": "volume",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.3476234870713087
+   },
+   {
+    "high": 0.6482739825581396,
+    "low": 0.41341751453488373,
+    "method": "volume",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.5250726744186046
+   },
+   {
+    "high": 0.10717919825507058,
+    "low": 0.0,
+    "method": "volume",
+    "metric": "detection_rate",
+    "n": 0,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.09760871102560763,
+    "low": 0.011933798077408367,
+    "method": "volume",
+    "metric": "false_positive_rate",
+    "n": 3,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.03488372093023256
+   },
+   {
+    "method": "volume",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.3495602790582316
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "volume",
+    "metric": "online_false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.24218154728387864,
+    "low": 0.032401551298366194,
+    "method": "volume",
+    "metric": "detection_coverage",
+    "n": 3,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.09375
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_precision",
+    "n": 0,
+    "total": 4
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_recall",
+    "n": 0,
+    "total": 97
+   },
+   {
+    "method": "logistic",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.667662456648219
+   },
+   {
+    "high": 0.9538880813953488,
+    "low": 0.8607285610465116,
+    "method": "logistic",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.9113372093023255
+   },
+   {
+    "high": 0.6355048288102536,
+    "low": 0.3086938710806884,
+    "method": "logistic",
+    "metric": "detection_rate",
+    "n": 15,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.46875
+   },
+   {
+    "high": 0.17295741124986846,
+    "low": 0.04789228421527053,
+    "method": "logistic",
+    "metric": "false_positive_rate",
+    "n": 8,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.09302325581395349
+   },
+   {
+    "method": "logistic",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.9306306522841449
+   },
+   {
+    "high": 0.11356997813711978,
+    "low": 0.018233968238320825,
+    "method": "logistic",
+    "metric": "online_false_positive_rate",
+    "n": 4,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.046511627906976744
+   },
+   {
+    "high": 0.48566678300955407,
+    "low": 0.17952541633609737,
+    "method": "logistic",
+    "metric": "detection_coverage",
+    "n": 10,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.3125
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_precision",
+    "n": 56,
+    "total": 129
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_recall",
+    "n": 56,
+    "total": 97
+   },
+   {
+    "method": "boosted",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.5944036682104042
+   },
+   {
+    "high": 0.9481468023255815,
+    "low": 0.8418422965116279,
+    "method": "boosted",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.8997093023255814
+   },
+   {
+    "high": 0.6067440886314801,
+    "low": 0.2816533111504037,
+    "method": "boosted",
+    "metric": "detection_rate",
+    "n": 14,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.4375
+   },
+   {
+    "high": 0.18707023559220048,
+    "low": 0.0560408971453631,
+    "method": "boosted",
+    "metric": "false_positive_rate",
+    "n": 9,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.10465116279069768
+   },
+   {
+    "method": "boosted",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.9961662559411262
+   },
+   {
+    "high": 0.11356997813711978,
+    "low": 0.018233968238320825,
+    "method": "boosted",
+    "metric": "online_false_positive_rate",
+    "n": 4,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.046511627906976744
+   },
+   {
+    "high": 0.48566678300955407,
+    "low": 0.17952541633609737,
+    "method": "boosted",
+    "metric": "detection_coverage",
+    "n": 10,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.3125
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_precision",
+    "n": 52,
+    "total": 106
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_recall",
+    "n": 52,
+    "total": 97
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_precision",
+    "n": 94,
+    "total": 258
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_recall",
+    "n": 94,
+    "total": 97
+   }
+  ],
+  "V2 aggregation": [
+   {
+    "method": "split",
+    "metric": "fitting_runs",
+    "n": 194,
+    "total": 194
+   },
+   {
+    "method": "split",
+    "metric": "calibration_runs",
+    "n": 84,
+    "total": 84
+   },
+   {
+    "method": "split",
+    "metric": "calibration_controls",
+    "n": 61,
+    "total": 61
+   },
+   {
+    "method": "split",
+    "metric": "test_runs",
+    "n": 118,
+    "total": 118
+   },
+   {
+    "method": "volume",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.3476234870713087
+   },
+   {
+    "high": 0.6482739825581396,
+    "low": 0.41341751453488373,
+    "method": "volume",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.5250726744186046
+   },
+   {
+    "high": 0.10717919825507058,
+    "low": 0.0,
+    "method": "volume",
+    "metric": "detection_rate",
+    "n": 0,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.0
+   },
+   {
+    "high": 0.09760871102560763,
+    "low": 0.011933798077408367,
+    "method": "volume",
+    "metric": "false_positive_rate",
+    "n": 3,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.03488372093023256
+   },
+   {
+    "method": "volume",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.3495602790582316
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "volume",
+    "metric": "online_false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.24218154728387864,
+    "low": 0.032401551298366194,
+    "method": "volume",
+    "metric": "detection_coverage",
+    "n": 3,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.09375
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_precision",
+    "n": 0,
+    "total": 0
+   },
+   {
+    "method": "volume",
+    "metric": "attribution_recall",
+    "n": 0,
+    "total": 97
+   },
+   {
+    "method": "logistic",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.7167563780409693
+   },
+   {
+    "high": 0.9614871002906976,
+    "low": 0.873155886627907,
+    "method": "logistic",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.920421511627907
+   },
+   {
+    "high": 0.6067440886314801,
+    "low": 0.2816533111504037,
+    "method": "logistic",
+    "metric": "detection_rate",
+    "n": 14,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.4375
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "logistic",
+    "metric": "false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "method": "logistic",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.7888844397992653
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "logistic",
+    "metric": "online_false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "high": 0.5773997512461714,
+    "low": 0.2551963484266544,
+    "method": "logistic",
+    "metric": "detection_coverage",
+    "n": 13,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.40625
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_precision",
+    "n": 52,
+    "total": 103
+   },
+   {
+    "method": "logistic",
+    "metric": "attribution_recall",
+    "n": 52,
+    "total": 97
+   },
+   {
+    "method": "boosted",
+    "metric": "full_trace_threshold",
+    "note": "",
+    "value": 0.6711847885870272
+   },
+   {
+    "high": 0.9671329941860465,
+    "low": 0.8769803779069767,
+    "method": "boosted",
+    "metric": "auroc",
+    "n": 118,
+    "note": "",
+    "total": 118,
+    "valid": 200,
+    "value": 0.9255087209302325
+   },
+   {
+    "high": 0.5773997512461714,
+    "low": 0.2551963484266544,
+    "method": "boosted",
+    "metric": "detection_rate",
+    "n": 13,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.40625
+   },
+   {
+    "high": 0.12897844802678554,
+    "low": 0.025086935621079665,
+    "method": "boosted",
+    "metric": "false_positive_rate",
+    "n": 5,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.05813953488372093
+   },
+   {
+    "method": "boosted",
+    "metric": "online_threshold",
+    "note": "",
+    "value": 0.928836668533854
+   },
+   {
+    "high": 0.14396140641036845,
+    "low": 0.03236541450992136,
+    "method": "boosted",
+    "metric": "online_false_positive_rate",
+    "n": 6,
+    "note": "",
+    "total": 86,
+    "valid": 0,
+    "value": 0.06976744186046512
+   },
+   {
+    "high": 0.5474559264692255,
+    "low": 0.22933887309454212,
+    "method": "boosted",
+    "metric": "detection_coverage",
+    "n": 12,
+    "note": "",
+    "total": 32,
+    "valid": 0,
+    "value": 0.375
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_precision",
+    "n": 50,
+    "total": 99
+   },
+   {
+    "method": "boosted",
+    "metric": "attribution_recall",
+    "n": 50,
+    "total": 97
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_precision",
+    "n": 97,
+    "total": 176
+   },
+   {
+    "method": "pairs",
+    "metric": "attribution_recall",
+    "n": 97,
+    "total": 97
+   }
+  ]
+ },
+ "source": "BASE 65cf195, swarmtrace evaluate() on data/dataset/main, seed 20261120, n_bootstrap 200, by-run split"
+}

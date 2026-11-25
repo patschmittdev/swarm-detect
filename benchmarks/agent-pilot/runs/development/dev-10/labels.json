@@ -1,0 +1,141 @@
+{
+  "condition": "swarm_peers",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 1,
+      "requests": 83
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 1,
+      "requests": 73
+    },
+    "127.0.0.3": {
+      "distinct_token_ids": 1,
+      "requests": 41
+    },
+    "127.0.0.4": {
+      "distinct_token_ids": 1,
+      "requests": 64
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "3ba3dcfcc212": [
+        "127.0.0.3"
+      ],
+      "922426ce3ab8": [
+        "127.0.0.2"
+      ],
+      "96016c90719d": [
+        "127.0.0.1"
+      ],
+      "af8fa456e37f": [
+        "127.0.0.4"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 39,
+    "group_formed": true,
+    "negative_contaminated": null,
+    "processes": [
+      {
+        "address": "127.0.0.1",
+        "cross_process_note_reads": 9,
+        "doc_reads": 30,
+        "index": 0,
+        "note_writes": 6,
+        "requests": 83,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.2",
+        "cross_process_note_reads": 10,
+        "doc_reads": 20,
+        "index": 1,
+        "note_writes": 7,
+        "requests": 73,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.3",
+        "cross_process_note_reads": 7,
+        "doc_reads": 20,
+        "index": 2,
+        "note_writes": 4,
+        "requests": 41,
+        "subagents_completed": null,
+        "subagents_spawned": null,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.4",
+        "cross_process_note_reads": 13,
+        "doc_reads": 20,
+        "index": 3,
+        "note_writes": 6,
+        "requests": 64,
+        "subagents_completed": null,
+        "subagents_spawned": null,
+        "worked": true
+      }
+    ]
+  },
+  "positive": true,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": null,
+      "group_id": "g0",
+      "index": 0,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "owners"
+    },
+    {
+      "address": "127.0.0.2",
+      "client": null,
+      "group_id": "g0",
+      "index": 1,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "owners"
+    },
+    {
+      "address": "127.0.0.3",
+      "client": null,
+      "group_id": "g0",
+      "index": 2,
+      "kind": "agent",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "native_subagents": 0,
+      "requested_launcher": "codex",
+      "task_id": "owners"
+    },
+    {
+      "address": "127.0.0.4",
+      "client": null,
+      "group_id": "g0",
+      "index": 3,
+      "kind": "agent",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "native_subagents": 0,
+      "requested_launcher": "codex",
+      "task_id": "owners"
+    }
+  ],
+  "run_id": "dev-10"
+}

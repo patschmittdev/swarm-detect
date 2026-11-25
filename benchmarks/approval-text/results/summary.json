@@ -1,0 +1,196 @@
+{
+  "agreement": {
+    "all": {
+      "tasks": 147,
+      "agreed": 138,
+      "both_required": 13,
+      "both_redaction_possible": 125,
+      "disagreed": 9,
+      "kappa": 0.7096774193548387
+    },
+    "calibration": {
+      "tasks": 76,
+      "agreed": 70,
+      "both_required": 7,
+      "both_redaction_possible": 63,
+      "disagreed": 6,
+      "kappa": 0.6591928251121076
+    },
+    "confirmation": {
+      "tasks": 71,
+      "agreed": 68,
+      "both_required": 6,
+      "both_redaction_possible": 62,
+      "disagreed": 3,
+      "kappa": 0.776495278069255
+    }
+  },
+  "cutoffs": {
+    "parser": 0.5,
+    "deberta": 0.5
+  },
+  "paired_required_gained": 0,
+  "paired_required_lost": 0,
+  "paired_required_discordance_95pct_upper": 0.393037768997,
+  "confirmation_groups_with_required": 4,
+  "confirmation_groups_with_controls": 25,
+  "groups_with_any_false_required": {
+    "parser": 0,
+    "deberta": 0
+  },
+  "any_false_required_group_rate_95pct_upper": {
+    "parser": 0.112928145007,
+    "deberta": 0.112928145007
+  },
+  "correct_redactable_paired": {
+    "both": 2,
+    "parser_only": 21,
+    "deberta_only": 1,
+    "neither": 38
+  },
+  "confirmation": [
+    {
+      "split": "confirmation",
+      "family": "all",
+      "policy": "fixed_floor",
+      "method": "parser",
+      "tasks": 71,
+      "reviewer_disagreements": 3,
+      "required_tasks": 6,
+      "redactable_tasks": 62,
+      "correct_required": 0,
+      "false_required": 0,
+      "correct_redactable": 23,
+      "false_redactable": 0,
+      "unclear_required": 6,
+      "unclear_redactable": 39,
+      "resolved_consensus_tasks": 23,
+      "unclear_consensus_tasks": 45,
+      "affirmed_on_disagreement": 0,
+      "required_cutoff": 0.5,
+      "false_required_rate": 0.0,
+      "one_sided_95pct_upper": 0.047169511375,
+      "within_observed_5pct_budget": true
+    },
+    {
+      "split": "confirmation",
+      "family": "all",
+      "policy": "calibrated",
+      "method": "parser",
+      "tasks": 71,
+      "reviewer_disagreements": 3,
+      "required_tasks": 6,
+      "redactable_tasks": 62,
+      "correct_required": 0,
+      "false_required": 0,
+      "correct_redactable": 23,
+      "false_redactable": 0,
+      "unclear_required": 6,
+      "unclear_redactable": 39,
+      "resolved_consensus_tasks": 23,
+      "unclear_consensus_tasks": 45,
+      "affirmed_on_disagreement": 0,
+      "required_cutoff": 0.5,
+      "false_required_rate": 0.0,
+      "one_sided_95pct_upper": 0.047169511375,
+      "within_observed_5pct_budget": true
+    },
+    {
+      "split": "confirmation",
+      "family": "all",
+      "policy": "fixed_floor",
+      "method": "deberta",
+      "tasks": 71,
+      "reviewer_disagreements": 3,
+      "required_tasks": 6,
+      "redactable_tasks": 62,
+      "correct_required": 0,
+      "false_required": 0,
+      "correct_redactable": 3,
+      "false_redactable": 0,
+      "unclear_required": 6,
+      "unclear_redactable": 59,
+      "resolved_consensus_tasks": 3,
+      "unclear_consensus_tasks": 65,
+      "affirmed_on_disagreement": 0,
+      "required_cutoff": 0.5,
+      "false_required_rate": 0.0,
+      "one_sided_95pct_upper": 0.047169511375,
+      "within_observed_5pct_budget": true
+    },
+    {
+      "split": "confirmation",
+      "family": "all",
+      "policy": "calibrated",
+      "method": "deberta",
+      "tasks": 71,
+      "reviewer_disagreements": 3,
+      "required_tasks": 6,
+      "redactable_tasks": 62,
+      "correct_required": 0,
+      "false_required": 0,
+      "correct_redactable": 3,
+      "false_redactable": 0,
+      "unclear_required": 6,
+      "unclear_redactable": 59,
+      "resolved_consensus_tasks": 3,
+      "unclear_consensus_tasks": 65,
+      "affirmed_on_disagreement": 0,
+      "required_cutoff": 0.5,
+      "false_required_rate": 0.0,
+      "one_sided_95pct_upper": 0.047169511375,
+      "within_observed_5pct_budget": true
+    }
+  ],
+  "retrospective_at_same_5pct_cap": {
+    "parser": {
+      "method": "parser",
+      "tasks": 71,
+      "reviewer_disagreements": 3,
+      "required_tasks": 6,
+      "redactable_tasks": 62,
+      "correct_required": 0,
+      "false_required": 0,
+      "correct_redactable": 23,
+      "false_redactable": 0,
+      "unclear_required": 6,
+      "unclear_redactable": 39,
+      "resolved_consensus_tasks": 23,
+      "unclear_consensus_tasks": 45,
+      "affirmed_on_disagreement": 0,
+      "required_cutoff": 0.0,
+      "false_required_rate": 0.0,
+      "one_sided_95pct_upper": 0.047169511375,
+      "within_observed_5pct_budget": true
+    },
+    "deberta": {
+      "method": "deberta",
+      "tasks": 71,
+      "reviewer_disagreements": 3,
+      "required_tasks": 6,
+      "redactable_tasks": 62,
+      "correct_required": 0,
+      "false_required": 0,
+      "correct_redactable": 3,
+      "false_redactable": 0,
+      "unclear_required": 6,
+      "unclear_redactable": 59,
+      "resolved_consensus_tasks": 3,
+      "unclear_consensus_tasks": 65,
+      "affirmed_on_disagreement": 1,
+      "required_cutoff": 0.0,
+      "false_required_rate": 0.0,
+      "one_sided_95pct_upper": 0.047169511375,
+      "within_observed_5pct_budget": true
+    }
+  },
+  "distinct_families": {
+    "calibration": 18,
+    "confirmation": 25
+  },
+  "distinct_groups": {
+    "calibration": 17,
+    "confirmation": 25
+  },
+  "eligible_for_swarm_promotion": false
+}

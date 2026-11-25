@@ -1,0 +1,115 @@
+{
+  "condition": "single",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 1,
+      "requests": 13
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 16,
+      "requests": 92
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "28db7a348e91": [
+        "127.0.0.2"
+      ],
+      "361f3e30d16f": [
+        "127.0.0.2"
+      ],
+      "3fe38fe9e8a5": [
+        "127.0.0.2"
+      ],
+      "5776d0395bd6": [
+        "127.0.0.2"
+      ],
+      "5f1b142c9138": [
+        "127.0.0.2"
+      ],
+      "60407a813eda": [
+        "127.0.0.2"
+      ],
+      "6e68866229df": [
+        "127.0.0.2"
+      ],
+      "8d2b489f8cf1": [
+        "127.0.0.2"
+      ],
+      "912a243a0af9": [
+        "127.0.0.2"
+      ],
+      "bccbe9872342": [
+        "127.0.0.2"
+      ],
+      "cd14d8eb4169": [
+        "127.0.0.2"
+      ],
+      "d37d90cdcde8": [
+        "127.0.0.2"
+      ],
+      "d5562e69a244": [
+        "127.0.0.2"
+      ],
+      "d6f42f421287": [
+        "127.0.0.1"
+      ],
+      "e64e5e04dddb": [
+        "127.0.0.2"
+      ],
+      "fa501e575fed": [
+        "127.0.0.2"
+      ],
+      "fa64976b60a8": [
+        "127.0.0.2"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 0,
+    "group_formed": null,
+    "negative_contaminated": null,
+    "processes": [
+      {
+        "address": "127.0.0.1",
+        "cross_process_note_reads": 0,
+        "doc_reads": 0,
+        "index": 0,
+        "note_writes": 1,
+        "requests": 13,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": false
+      }
+    ]
+  },
+  "positive": false,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": null,
+      "group_id": "p0",
+      "index": 0,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "sites"
+    },
+    {
+      "address": "127.0.0.2",
+      "client": "browsing_users",
+      "group_id": "background",
+      "index": 1,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    }
+  ],
+  "run_id": "test-13"
+}

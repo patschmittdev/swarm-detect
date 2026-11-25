@@ -1,0 +1,111 @@
+{
+  "condition": "swarm_peers",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 1,
+      "requests": 49
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 1,
+      "requests": 53
+    },
+    "127.0.0.3": {
+      "distinct_token_ids": 1,
+      "requests": 46
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "bb592ce655df": [
+        "127.0.0.2"
+      ],
+      "c5015df0c0aa": [
+        "127.0.0.1"
+      ],
+      "eb8f39697c99": [
+        "127.0.0.3"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 10,
+    "group_formed": true,
+    "negative_contaminated": null,
+    "processes": [
+      {
+        "address": "127.0.0.1",
+        "cross_process_note_reads": 3,
+        "doc_reads": 30,
+        "index": 0,
+        "note_writes": 4,
+        "requests": 49,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.2",
+        "cross_process_note_reads": 5,
+        "doc_reads": 30,
+        "index": 1,
+        "note_writes": 5,
+        "requests": 53,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.3",
+        "cross_process_note_reads": 2,
+        "doc_reads": 30,
+        "index": 2,
+        "note_writes": 4,
+        "requests": 46,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      }
+    ]
+  },
+  "positive": true,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": null,
+      "group_id": "g0",
+      "index": 0,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "summaries"
+    },
+    {
+      "address": "127.0.0.2",
+      "client": null,
+      "group_id": "g0",
+      "index": 1,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "summaries"
+    },
+    {
+      "address": "127.0.0.3",
+      "client": null,
+      "group_id": "g0",
+      "index": 2,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "summaries"
+    }
+  ],
+  "run_id": "test-06"
+}

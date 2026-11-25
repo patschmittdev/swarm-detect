@@ -1,0 +1,758 @@
+{
+  "claude": {
+    "distinct_prompting_session_ids": 8,
+    "scenarios": {
+      "interactive_background_then_esc": {
+        "mode": "interactive",
+        "review": {
+          "events": 33,
+          "latest_open": {
+            "conservative_unassigned": 0,
+            "correct": 3,
+            "eligible": 3,
+            "overlap": 0,
+            "overlap_correct": 0,
+            "overlap_wrong": 0,
+            "unassigned": 0,
+            "wrong": 0
+          },
+          "lifecycle": {
+            "distinct_children": 2,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 2,
+            "missing_identity": 0,
+            "open_at_end": 0,
+            "orphan_stops": 6,
+            "resumed_starts": 0,
+            "starts": 2
+          },
+          "lineage": {
+            "explicit_child_caller": 0,
+            "launch_acks": 2,
+            "observed_target": 2,
+            "unobserved_target": 0,
+            "untagged_caller": 2
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 3,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 3,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 1,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 5,
+            "pre": 6,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 2,
+            "untagged_pre": 3,
+            "untagged_terminal": 2
+          }
+        },
+        "source_event_counts": {
+          "PostToolUse": 5,
+          "PreToolUse": 6,
+          "SessionStart": 1,
+          "Stop": 5,
+          "SubagentStart": 2,
+          "SubagentStop": 8,
+          "UserPromptSubmit": 6
+        }
+      },
+      "interactive_nested_resume": {
+        "mode": "interactive",
+        "review": {
+          "events": 26,
+          "latest_open": {
+            "conservative_unassigned": 1,
+            "correct": 4,
+            "eligible": 4,
+            "overlap": 1,
+            "overlap_correct": 1,
+            "overlap_wrong": 0,
+            "unassigned": 0,
+            "wrong": 0
+          },
+          "lifecycle": {
+            "distinct_children": 2,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 3,
+            "missing_identity": 0,
+            "open_at_end": 0,
+            "orphan_stops": 3,
+            "resumed_starts": 1,
+            "starts": 3
+          },
+          "lineage": {
+            "explicit_child_caller": 1,
+            "launch_acks": 2,
+            "observed_target": 2,
+            "unobserved_target": 0,
+            "untagged_caller": 1
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 4,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 4,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 0,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 5,
+            "pre": 5,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 1,
+            "untagged_pre": 1,
+            "untagged_terminal": 1
+          }
+        },
+        "source_event_counts": {
+          "Notification": 1,
+          "PostToolUse": 5,
+          "PreToolUse": 5,
+          "Stop": 3,
+          "SubagentStart": 3,
+          "SubagentStop": 6,
+          "UserPromptSubmit": 3
+        }
+      },
+      "interactive_parallel": {
+        "mode": "interactive",
+        "review": {
+          "events": 41,
+          "latest_open": {
+            "conservative_unassigned": 6,
+            "correct": 2,
+            "eligible": 6,
+            "overlap": 6,
+            "overlap_correct": 2,
+            "overlap_wrong": 4,
+            "unassigned": 0,
+            "wrong": 4
+          },
+          "lifecycle": {
+            "distinct_children": 3,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 3,
+            "missing_identity": 0,
+            "open_at_end": 0,
+            "orphan_stops": 4,
+            "resumed_starts": 0,
+            "starts": 3
+          },
+          "lineage": {
+            "explicit_child_caller": 0,
+            "launch_acks": 3,
+            "observed_target": 3,
+            "unobserved_target": 0,
+            "untagged_caller": 3
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 6,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 6,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 0,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 9,
+            "pre": 9,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 3,
+            "untagged_pre": 3,
+            "untagged_terminal": 3
+          }
+        },
+        "source_event_counts": {
+          "Notification": 1,
+          "PostToolUse": 9,
+          "PreToolUse": 9,
+          "SessionStart": 1,
+          "Stop": 4,
+          "SubagentStart": 3,
+          "SubagentStop": 7,
+          "UserPromptSubmit": 7
+        }
+      },
+      "print_async": {
+        "mode": "print",
+        "review": {
+          "events": 14,
+          "latest_open": {
+            "conservative_unassigned": 0,
+            "correct": 2,
+            "eligible": 2,
+            "overlap": 0,
+            "overlap_correct": 0,
+            "overlap_wrong": 0,
+            "unassigned": 0,
+            "wrong": 0
+          },
+          "lifecycle": {
+            "distinct_children": 1,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 1,
+            "missing_identity": 0,
+            "open_at_end": 0,
+            "orphan_stops": 0,
+            "resumed_starts": 0,
+            "starts": 1
+          },
+          "lineage": {
+            "explicit_child_caller": 0,
+            "launch_acks": 1,
+            "observed_target": 1,
+            "unobserved_target": 0,
+            "untagged_caller": 1
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 2,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 2,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 0,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 3,
+            "pre": 3,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 1,
+            "untagged_pre": 1,
+            "untagged_terminal": 1
+          }
+        },
+        "source_event_counts": {
+          "PostToolUse": 3,
+          "PreToolUse": 3,
+          "SessionEnd": 1,
+          "SessionStart": 1,
+          "Stop": 2,
+          "SubagentStart": 1,
+          "SubagentStop": 1,
+          "UserPromptSubmit": 2
+        }
+      },
+      "print_interrupt_background": {
+        "mode": "print",
+        "review": {
+          "events": 8,
+          "latest_open": {
+            "conservative_unassigned": 0,
+            "correct": 0,
+            "eligible": 0,
+            "overlap": 0,
+            "overlap_correct": 0,
+            "overlap_wrong": 0,
+            "unassigned": 0,
+            "wrong": 0
+          },
+          "lifecycle": {
+            "distinct_children": 1,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 0,
+            "missing_identity": 0,
+            "open_at_end": 1,
+            "orphan_stops": 0,
+            "resumed_starts": 0,
+            "starts": 1
+          },
+          "lineage": {
+            "explicit_child_caller": 0,
+            "launch_acks": 1,
+            "observed_target": 1,
+            "unobserved_target": 0,
+            "untagged_caller": 1
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 0,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 0,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 0,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 1,
+            "pre": 1,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 1,
+            "untagged_pre": 1,
+            "untagged_terminal": 1
+          }
+        },
+        "source_event_counts": {
+          "PostToolUse": 1,
+          "PreToolUse": 1,
+          "SessionEnd": 1,
+          "SessionStart": 1,
+          "Stop": 1,
+          "SubagentStart": 1,
+          "UserPromptSubmit": 2
+        }
+      },
+      "print_interrupt_foreground": {
+        "mode": "print",
+        "review": {
+          "events": 7,
+          "latest_open": {
+            "conservative_unassigned": 0,
+            "correct": 1,
+            "eligible": 1,
+            "overlap": 0,
+            "overlap_correct": 0,
+            "overlap_wrong": 0,
+            "unassigned": 0,
+            "wrong": 0
+          },
+          "lifecycle": {
+            "distinct_children": 1,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 0,
+            "missing_identity": 0,
+            "open_at_end": 1,
+            "orphan_stops": 0,
+            "resumed_starts": 0,
+            "starts": 1
+          },
+          "lineage": {
+            "explicit_child_caller": 0,
+            "launch_acks": 0,
+            "observed_target": 0,
+            "unobserved_target": 0,
+            "untagged_caller": 0
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 1,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 1,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 1,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 1,
+            "pre": 2,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 0,
+            "untagged_pre": 1,
+            "untagged_terminal": 0
+          }
+        },
+        "source_event_counts": {
+          "PostToolUse": 1,
+          "PreToolUse": 2,
+          "SessionEnd": 1,
+          "SessionStart": 1,
+          "SubagentStart": 1,
+          "UserPromptSubmit": 1
+        }
+      },
+      "print_nested": {
+        "mode": "print",
+        "review": {
+          "events": 14,
+          "latest_open": {
+            "conservative_unassigned": 1,
+            "correct": 2,
+            "eligible": 2,
+            "overlap": 1,
+            "overlap_correct": 1,
+            "overlap_wrong": 0,
+            "unassigned": 0,
+            "wrong": 0
+          },
+          "lifecycle": {
+            "distinct_children": 2,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 2,
+            "missing_identity": 0,
+            "open_at_end": 0,
+            "orphan_stops": 0,
+            "resumed_starts": 0,
+            "starts": 2
+          },
+          "lineage": {
+            "explicit_child_caller": 1,
+            "launch_acks": 2,
+            "observed_target": 2,
+            "unobserved_target": 0,
+            "untagged_caller": 1
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 2,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 2,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 0,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 3,
+            "pre": 3,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 1,
+            "untagged_pre": 1,
+            "untagged_terminal": 1
+          }
+        },
+        "source_event_counts": {
+          "PostToolUse": 3,
+          "PreToolUse": 3,
+          "SessionEnd": 1,
+          "SessionStart": 1,
+          "Stop": 1,
+          "SubagentStart": 2,
+          "SubagentStop": 2,
+          "UserPromptSubmit": 1
+        }
+      },
+      "print_parallel_foreground": {
+        "mode": "print",
+        "review": {
+          "events": 16,
+          "latest_open": {
+            "conservative_unassigned": 2,
+            "correct": 1,
+            "eligible": 2,
+            "overlap": 2,
+            "overlap_correct": 1,
+            "overlap_wrong": 1,
+            "unassigned": 0,
+            "wrong": 1
+          },
+          "lifecycle": {
+            "distinct_children": 2,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 2,
+            "missing_identity": 0,
+            "open_at_end": 0,
+            "orphan_stops": 0,
+            "resumed_starts": 0,
+            "starts": 2
+          },
+          "lineage": {
+            "explicit_child_caller": 0,
+            "launch_acks": 2,
+            "observed_target": 2,
+            "unobserved_target": 0,
+            "untagged_caller": 2
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 2,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 2,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 0,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 4,
+            "pre": 4,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 2,
+            "untagged_pre": 2,
+            "untagged_terminal": 2
+          }
+        },
+        "source_event_counts": {
+          "PostToolUse": 4,
+          "PreToolUse": 4,
+          "SessionEnd": 1,
+          "SessionStart": 1,
+          "Stop": 1,
+          "SubagentStart": 2,
+          "SubagentStop": 2,
+          "UserPromptSubmit": 1
+        }
+      },
+      "print_sync": {
+        "mode": "print",
+        "review": {
+          "events": 10,
+          "latest_open": {
+            "conservative_unassigned": 0,
+            "correct": 1,
+            "eligible": 1,
+            "overlap": 0,
+            "overlap_correct": 0,
+            "overlap_wrong": 0,
+            "unassigned": 0,
+            "wrong": 0
+          },
+          "lifecycle": {
+            "distinct_children": 1,
+            "duplicate_closed_stops": 0,
+            "duplicate_open_starts": 0,
+            "matched_stops": 1,
+            "missing_identity": 0,
+            "open_at_end": 0,
+            "orphan_stops": 0,
+            "resumed_starts": 0,
+            "starts": 1
+          },
+          "lineage": {
+            "explicit_child_caller": 0,
+            "launch_acks": 1,
+            "observed_target": 1,
+            "unobserved_target": 0,
+            "untagged_caller": 1
+          },
+          "sessions": 1,
+          "tools": {
+            "child_paired_failure": 0,
+            "child_paired_success": 1,
+            "duplicate_pre": 0,
+            "duplicate_terminal": 0,
+            "explicit_child_pre": 1,
+            "failure": 0,
+            "identity_conflicts": 0,
+            "incomplete_identity_calls": 0,
+            "invalid_actor": 0,
+            "missing_call_id": 0,
+            "missing_pre": 0,
+            "missing_result": 0,
+            "missing_session": 0,
+            "missing_tool_name": 0,
+            "out_of_order": 0,
+            "outcome_conflicts": 0,
+            "post": 2,
+            "pre": 2,
+            "result_target_conflicts": 0,
+            "untagged_correlated_failure": 0,
+            "untagged_correlated_success": 1,
+            "untagged_pre": 1,
+            "untagged_terminal": 1
+          }
+        },
+        "source_event_counts": {
+          "PostToolUse": 2,
+          "PreToolUse": 2,
+          "SessionEnd": 1,
+          "SessionStart": 1,
+          "Stop": 1,
+          "SubagentStart": 1,
+          "SubagentStop": 1,
+          "UserPromptSubmit": 1
+        }
+      }
+    },
+    "selected_events": 169,
+    "sum_of_scenario_review_counts": {
+      "latest_open": {
+        "conservative_unassigned": 10,
+        "correct": 16,
+        "eligible": 21,
+        "overlap": 10,
+        "overlap_correct": 5,
+        "overlap_wrong": 5,
+        "unassigned": 0,
+        "wrong": 5
+      },
+      "lifecycle": {
+        "duplicate_closed_stops": 0,
+        "duplicate_open_starts": 0,
+        "matched_stops": 14,
+        "missing_identity": 0,
+        "open_at_end": 2,
+        "orphan_stops": 13,
+        "resumed_starts": 1,
+        "starts": 16
+      },
+      "lineage": {
+        "explicit_child_caller": 2,
+        "launch_acks": 14,
+        "observed_target": 14,
+        "unobserved_target": 0,
+        "untagged_caller": 12
+      },
+      "tools": {
+        "child_paired_failure": 0,
+        "child_paired_success": 21,
+        "duplicate_pre": 0,
+        "duplicate_terminal": 0,
+        "explicit_child_pre": 21,
+        "failure": 0,
+        "identity_conflicts": 0,
+        "incomplete_identity_calls": 0,
+        "invalid_actor": 0,
+        "missing_call_id": 0,
+        "missing_pre": 0,
+        "missing_result": 2,
+        "missing_session": 0,
+        "missing_tool_name": 0,
+        "out_of_order": 0,
+        "outcome_conflicts": 0,
+        "post": 33,
+        "pre": 35,
+        "result_target_conflicts": 0,
+        "untagged_correlated_failure": 0,
+        "untagged_correlated_success": 12,
+        "untagged_pre": 14,
+        "untagged_terminal": 12
+      }
+    }
+  },
+  "grok": {
+    "captures": {
+      "2026-09-01": {
+        "review": {
+          "ambiguous_stops": 0,
+          "cross_parent_child_ids": 0,
+          "events": 15,
+          "incomplete_starts": 0,
+          "invalid_child_ids": 0,
+          "invalid_event_names": 0,
+          "invalid_events": 0,
+          "invalid_session_ids": 0,
+          "matched_episodes": 0,
+          "mismatched_stop_sessions": 0,
+          "naive_same_session_matches": 0,
+          "naive_wrong_child_matches": 0,
+          "orphan_stops": 0,
+          "other_events": 15,
+          "overlapping_starts": 0,
+          "self_parent_starts": 0,
+          "start_events": 0,
+          "stop_events": 0
+        },
+        "selected_events": 15
+      },
+      "2026-09-02": {
+        "review": {
+          "ambiguous_stops": 0,
+          "cross_parent_child_ids": 0,
+          "events": 4,
+          "incomplete_starts": 0,
+          "invalid_child_ids": 0,
+          "invalid_event_names": 0,
+          "invalid_events": 0,
+          "invalid_session_ids": 0,
+          "matched_episodes": 2,
+          "mismatched_stop_sessions": 0,
+          "naive_same_session_matches": 0,
+          "naive_wrong_child_matches": 0,
+          "orphan_stops": 0,
+          "other_events": 0,
+          "overlapping_starts": 0,
+          "self_parent_starts": 0,
+          "start_events": 2,
+          "stop_events": 2
+        },
+        "selected_events": 4
+      }
+    },
+    "selected_events": 19,
+    "source_event_counts": {
+      "notification": 2,
+      "permission_denied": 1,
+      "post_compact": 1,
+      "post_tool_use": 1,
+      "pre_compact": 1,
+      "pre_tool_use": 1,
+      "session_end": 1,
+      "session_start": 1,
+      "stop": 2,
+      "stop_cancelled": 3,
+      "subagent_start": 2,
+      "subagent_stop": 2,
+      "user_prompt_submit": 1
+    }
+  },
+  "independent_swarm_accuracy_rounds": 0,
+  "revision": "d6641fe94841110a2184dd5bb1a1b360666b342d",
+  "source_kind": "publisher_reported_live_captures_with_redactions",
+  "verified_coordination_intent_labels": 0,
+  "verified_policy_effect_labels": 0
+}

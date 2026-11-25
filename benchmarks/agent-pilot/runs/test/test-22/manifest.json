@@ -1,0 +1,47 @@
+{
+  "agents": null,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "lookalike",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:25:49+00:00",
+  "mix": [
+    "scheduled_fleet",
+    "crawler"
+  ],
+  "processes": [
+    {
+      "client": "scheduled_fleet",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 0,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    },
+    {
+      "client": "crawler",
+      "duration_s": null,
+      "exit_code": null,
+      "index": 1,
+      "kind": "scripted",
+      "launch_policy": null,
+      "launcher": null,
+      "model": null,
+      "task_id": null,
+      "usage": null
+    }
+  ],
+  "run_id": "test-22",
+  "runner_versions": {},
+  "seed": 2220447035,
+  "service_seed": 679981970,
+  "started_utc": "2026-11-24T18:23:19+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

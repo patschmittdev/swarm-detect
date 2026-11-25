@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-11-24T18:09:24Z",
+  "protocol": {
+    "file": "protocol.json",
+    "sha256": "f83820f31e87a1fbeef6ad79554bd7adffe3b91a0f62e25a9bbe4f2d325d42e2"
+  },
+  "sources": {
+    "fleet/__init__.py": "f38ce8e808b0e8ffda9e2127532705021b6520ed408f18773e81ef2634ee0a78",
+    "fleet/__main__.py": "81713129171c29f87f6681ffae3a89b70094c4b6463a8af915bff434d3d39e27",
+    "fleet/baselines.py": "2a55ce62f0dcb6be0b2814532c686ad2a8b81c9473884b47b1a65e1155b69832",
+    "fleet/detector.py": "0a097fbb57b21a7b3b54cacc62e95b3b4c0c736d0a7c5a065258a5f21ee42674",
+    "fleet/events.py": "fdc35d7f834f86e476228f2659540ae27839a630bc6ee31e9410b34710ad88f3",
+    "study/__init__.py": "f3cf3c1e7eb88aed4f8c162961d578dc77d75e09064c578fca0be3e52de65aac",
+    "study/__main__.py": "4495bdafbdd2f4fe1e9373ace73740a7ef1666ec29c906f58641d1b59b448ab7",
+    "study/fetch.py": "7cd462941410dbb527ceb74c47193f20bbe84d498a12c2cff6ef71bbe88268ef",
+    "study/fleet_api.py": "73f33601456030a0f9f5b9b591d84de41d8540c99764f22d636747505ed1d65d",
+    "study/folding.py": "e6cd124fcb056ac64f8b0515c981e8610f33e86cabaef76db8bf947f8bd76150",
+    "study/freeze.py": "3d774008dd99248e7bf2fcace873fa5f02ae43e3f270155cf1f3b5a0b2e1fbda",
+    "study/pilot.py": "86058f036e4aaa61192ad00d28bacde5220da127d473f10bc4121a7fce96dd39",
+    "study/stats.py": "1457eb4532ddb5f177ba93e0cc249e29a8197828194a24fad516f075e1218b40",
+    "study/transfer.py": "604d6760821d7709d365cc6a6487db7f3423fdf1289266b92e072939b1c549af",
+    "pilot/__init__.py": "d3608f7756a6e332f48fde73281914559a0d360ba7b49f7a841d10a494275706",
+    "pilot/__main__.py": "ee2011c9bcb3151a0f09d93d2d11a66656da52d1d00674c0168dd35ad45d6b3a",
+    "pilot/batch.py": "d65396066dddd7eb2ce702eb86f3bb272c125e943699a25d2dbd5c3dd1ab4fde",
+    "pilot/harness.py": "7a0932b30aac55933e90a0813f5e3f26157b3f2e01364a52fa613920c6a40b27",
+    "pilot/lookalikes.py": "ccaab6c7f8834b23a90e3f9eb06d5cf0ee5b368449419e8709217ed800048f0d",
+    "pilot/publish.py": "7eb92e646b591bf403b33a3f7b2b7be9a06d47ffba621522ca856cc4224ec1fd",
+    "pilot/service.py": "9406cd5c7c401d3451a2475df39d169cb03eb430f1980b34c3118df8b59ff738",
+    "pilot/tasks.py": "36b8978afc30fddc90206c0e56c0a1a29825e5bebb95153244f2b9662a97916e"
+  }
+}

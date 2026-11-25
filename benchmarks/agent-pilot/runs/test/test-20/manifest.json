@@ -1,0 +1,78 @@
+{
+  "agents": 3,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "duplicates",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T18:23:22+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 52.61,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "summaries",
+      "usage": {
+        "cache_creation_input_tokens": 46719,
+        "cache_read_input_tokens": 482273,
+        "input_tokens": 28,
+        "num_turns": 21,
+        "output_tokens": 7122,
+        "total_cost_usd": 0.30637929999999997
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 144.53,
+      "exit_code": 0,
+      "index": 1,
+      "kind": "agent",
+      "launch_policy": "sandbox: workspace-write in an empty directory; network: allowed",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "requested_launcher": "codex",
+      "task_id": "summaries",
+      "usage": {
+        "total_tokens": 35271
+      }
+    },
+    {
+      "client": null,
+      "duration_s": 59.38,
+      "exit_code": 0,
+      "index": 2,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: denied; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "summaries",
+      "usage": {
+        "cache_creation_input_tokens": 50733,
+        "cache_read_input_tokens": 511692,
+        "input_tokens": 28,
+        "num_turns": 21,
+        "output_tokens": 8640,
+        "total_cost_usd": 0.3405572
+      }
+    }
+  ],
+  "run_id": "test-20",
+  "runner_versions": {
+    "claude": "2.1.331",
+    "codex": "0.172.0"
+  },
+  "seed": 841639466,
+  "service_seed": 1668007856,
+  "started_utc": "2026-11-24T18:20:55+00:00",
+  "subagents": null,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

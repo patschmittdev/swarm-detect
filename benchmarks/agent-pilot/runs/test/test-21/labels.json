@@ -1,0 +1,199 @@
+{
+  "condition": "duplicates",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 1,
+      "requests": 85
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 1,
+      "requests": 93
+    },
+    "127.0.0.3": {
+      "distinct_token_ids": 1,
+      "requests": 95
+    },
+    "127.0.0.4": {
+      "distinct_token_ids": 1,
+      "requests": 85
+    },
+    "127.0.0.5": {
+      "distinct_token_ids": 14,
+      "requests": 76
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "0a365284cdf2": [
+        "127.0.0.5"
+      ],
+      "1beec14a1dea": [
+        "127.0.0.4"
+      ],
+      "1d21626d4d58": [
+        "127.0.0.5"
+      ],
+      "3d3d81f40a9c": [
+        "127.0.0.5"
+      ],
+      "450334b6213a": [
+        "127.0.0.5"
+      ],
+      "5a1f51529593": [
+        "127.0.0.2"
+      ],
+      "6d0d0ca26ec7": [
+        "127.0.0.5"
+      ],
+      "6eace25a217c": [
+        "127.0.0.5"
+      ],
+      "7268da41b62c": [
+        "127.0.0.1"
+      ],
+      "7479b15883df": [
+        "127.0.0.5"
+      ],
+      "922766e0332f": [
+        "127.0.0.5"
+      ],
+      "a9392d23bf52": [
+        "127.0.0.5"
+      ],
+      "a94a0ee11929": [
+        "127.0.0.5"
+      ],
+      "b871bd219382": [
+        "127.0.0.5"
+      ],
+      "c5b1aa819d90": [
+        "127.0.0.5"
+      ],
+      "c6d805810450": [
+        "127.0.0.5"
+      ],
+      "cb6b3e4bebca": [
+        "127.0.0.3"
+      ],
+      "eb1b50e9cc16": [
+        "127.0.0.5"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 1,
+    "group_formed": null,
+    "negative_contaminated": true,
+    "processes": [
+      {
+        "address": "127.0.0.1",
+        "cross_process_note_reads": 0,
+        "doc_reads": 80,
+        "index": 0,
+        "note_writes": 1,
+        "requests": 85,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.2",
+        "cross_process_note_reads": 0,
+        "doc_reads": 80,
+        "index": 1,
+        "note_writes": 1,
+        "requests": 93,
+        "subagents_completed": null,
+        "subagents_spawned": null,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.3",
+        "cross_process_note_reads": 1,
+        "doc_reads": 81,
+        "index": 2,
+        "note_writes": 1,
+        "requests": 95,
+        "subagents_completed": null,
+        "subagents_spawned": null,
+        "worked": true
+      },
+      {
+        "address": "127.0.0.4",
+        "cross_process_note_reads": 0,
+        "doc_reads": 80,
+        "index": 3,
+        "note_writes": 1,
+        "requests": 85,
+        "subagents_completed": 0,
+        "subagents_spawned": 0,
+        "worked": true
+      }
+    ]
+  },
+  "positive": false,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": null,
+      "group_id": "p0",
+      "index": 0,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "cross-refs"
+    },
+    {
+      "address": "127.0.0.2",
+      "client": null,
+      "group_id": "p1",
+      "index": 1,
+      "kind": "agent",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "native_subagents": 0,
+      "requested_launcher": "codex",
+      "task_id": "cross-refs"
+    },
+    {
+      "address": "127.0.0.3",
+      "client": null,
+      "group_id": "p2",
+      "index": 2,
+      "kind": "agent",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "native_subagents": 0,
+      "requested_launcher": "codex",
+      "task_id": "cross-refs"
+    },
+    {
+      "address": "127.0.0.4",
+      "client": null,
+      "group_id": "p3",
+      "index": 3,
+      "kind": "agent",
+      "launcher": "claude",
+      "model": "sonnet",
+      "native_subagents": 0,
+      "requested_launcher": "claude",
+      "task_id": "cross-refs"
+    },
+    {
+      "address": "127.0.0.5",
+      "client": "browsing_users",
+      "group_id": "background",
+      "index": 4,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    }
+  ],
+  "run_id": "test-21"
+}

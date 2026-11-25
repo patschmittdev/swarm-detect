@@ -1,0 +1,42 @@
+{
+  "agents": null,
+  "background": false,
+  "batch_parallel": 3,
+  "condition": "swarm_native",
+  "drain_timed_out": false,
+  "dry_run": false,
+  "ended_utc": "2026-11-24T17:50:05+00:00",
+  "mix": null,
+  "processes": [
+    {
+      "client": null,
+      "duration_s": 80.14,
+      "exit_code": 0,
+      "index": 0,
+      "kind": "agent",
+      "launch_policy": "pre-approved: curl commands; subagent tool: allowed; other tools: not pre-approved",
+      "launcher": "claude",
+      "model": "sonnet",
+      "requested_launcher": "claude",
+      "task_id": "summaries",
+      "usage": {
+        "cache_creation_input_tokens": 8351,
+        "cache_read_input_tokens": 67967,
+        "input_tokens": 6,
+        "num_turns": 9,
+        "output_tokens": 6159,
+        "total_cost_usd": 0.5988724999999999
+      }
+    }
+  ],
+  "run_id": "dev-01",
+  "runner_versions": {
+    "claude": "2.1.331"
+  },
+  "seed": 467751098,
+  "service_seed": 790941238,
+  "started_utc": "2026-11-24T17:48:44+00:00",
+  "subagents": 4,
+  "timeout_hit": false,
+  "timeout_s": 900.0
+}

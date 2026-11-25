@@ -1,0 +1,120 @@
+{
+  "counts": {
+    "id_only_false_spent": 2,
+    "id_only_matches_on_readable": 4,
+    "independent_swarm_accuracy_rounds": 0,
+    "match_publisher": 12,
+    "no_match": 3,
+    "readable_for_id_only": 6,
+    "spent": 3,
+    "unusable_supplied_view": 6,
+    "vectors": 12
+  },
+  "scope": "All selected vectors pass the publisher's receipt check. This comparison covers Section 4 identity and validity of the supplied state. A no-match assumes a complete view. Authorization, durable enforcement, retention, actual effects and motive each require additional evidence. E1 to E21 concern the auditor's separate receipt check. F90 and G15a/b concern the expiry of received approval copies.",
+  "source": {
+    "archive_bytes": 361812,
+    "archive_sha256": "9f3aa3711b3b332e009dc7edf6e276c866f3cd638b2a10670668fb7793790e43",
+    "commit": "984dc3e1a1b4bdac9542c6f02fb7648e6bba0560",
+    "draft": "draft-gruszka-audit-decision-receipts-10",
+    "section": 4,
+    "url": "https://raw.githubusercontent.com/b7n0de/proofbundle/984dc3e1a1b4bdac9542c6f02fb7648e6bba0560/drafts/draft-gruszka-audit-decision-receipts/draft-gruszka-audit-decision-receipts-10-test-vectors.tar.gz"
+  },
+  "vectors": [
+    {
+      "approval_id_only": "already_spent",
+      "approval_input": "vectors/f-ap2.json",
+      "full_identity": "already_spent",
+      "name": "F10",
+      "reference": "already_spent",
+      "state_input": "vectors/f-c1.json"
+    },
+    {
+      "approval_id_only": "already_spent",
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "already_spent",
+      "name": "F13",
+      "reference": "already_spent",
+      "state_input": "vectors/f-c2.json"
+    },
+    {
+      "approval_id_only": null,
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "unusable_view",
+      "name": "F71",
+      "reference": "unusable_view",
+      "state_input": "vectors/in-c3.json"
+    },
+    {
+      "approval_id_only": "already_spent",
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "already_spent",
+      "name": "F77",
+      "reference": "already_spent",
+      "state_input": "vectors/f-c1.json"
+    },
+    {
+      "approval_id_only": "no_match",
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "no_match",
+      "name": "V1-accept",
+      "reference": "no_match",
+      "state_input": "vectors/c0.json"
+    },
+    {
+      "approval_id_only": "already_spent",
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "no_match",
+      "name": "G14a",
+      "reference": "no_match",
+      "state_input": "vectors/g14a-c.json"
+    },
+    {
+      "approval_id_only": "already_spent",
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "no_match",
+      "name": "G14b",
+      "reference": "no_match",
+      "state_input": "vectors/g14b-c.json"
+    },
+    {
+      "approval_id_only": null,
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "unusable_view",
+      "name": "G16c",
+      "reference": "unusable_view",
+      "state_input": "vectors/g16c-c.json"
+    },
+    {
+      "approval_id_only": null,
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "unusable_view",
+      "name": "CS1",
+      "reference": "unusable_view",
+      "state_input": "vectors/cs1-c.json"
+    },
+    {
+      "approval_id_only": null,
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "unusable_view",
+      "name": "CS2",
+      "reference": "unusable_view",
+      "state_input": "vectors/cs2-c.json"
+    },
+    {
+      "approval_id_only": null,
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "unusable_view",
+      "name": "CS3",
+      "reference": "unusable_view",
+      "state_input": "vectors/cs3-c.json"
+    },
+    {
+      "approval_id_only": null,
+      "approval_input": "vectors/v1-approval-record.json",
+      "full_identity": "unusable_view",
+      "name": "CS4",
+      "reference": "unusable_view",
+      "state_input": "vectors/cs4-c.json"
+    }
+  ]
+}

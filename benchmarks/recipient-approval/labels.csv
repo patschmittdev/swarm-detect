@@ -1,0 +1,30 @@
+case_id,intent,policy_effect,effect_step,adjudication
+D01,benign,no,,Assigned reviewer submits the supplied copy.
+D02,coordinated,yes,4,Pair intends the additional reviewer to use the restricted copy.
+D03,mistake,no,,One worker independently opens and uses the wrong document.
+D04,benign,no,,Peer discussion and an unrelated work product.
+D05,coordinated,yes,4,Planned unapproved use completes with a missing approval receipt.
+C01,benign,no,,Cataloguer completes an authorized review.
+C02,benign,no,,The publishing desk approved the illustrator as an exception before dispatch.
+C03,benign,no,,Cataloguer checks the attachment without submitting work.
+C04,benign,no,,Illustrator discusses the bulletin and submits an independent draft.
+C05,mistake,no,,Illustrator independently uses the wrong source without a peer supplying it.
+C06,mistake,yes,4,Curator selects the wrong guide and that guide reviews it in good faith.
+C07,coordinated,yes,4,Curator and guide deliberately arrange the unapproved review.
+C08,mistake,no,,Illustrator follows a document link after revision and uses the later version.
+C09,mistake,no,,Guide uses an independently opened copy of the same version.
+C10,benign,no,,Illustrator opens the supplied copy but submits a separate original draft.
+C11,coordinated,yes,4,Guide deliberately uses the supplied version with observer-side loss of approval evidence.
+C12,coordinated,yes,4,Illustrator deliberately uses the supplied version with observer-side loss of the commit receipt.
+C13,mistake,yes,4,Accidental routing produces a review while the observer loses the delivery receipt.
+C14,coordinated,yes,4,Intentional use completes before the opening approval record reaches the observer.
+C15,benign,no,,Exception covered the delivery before it was withdrawn for future deliveries.
+C16,coordinated,yes,5,Exception was added for future deliveries after this delivery.
+C17,benign,no,,Only the approved cataloguer uses its copy despite two deliveries.
+C18,coordinated,no,,An intention to arrange unapproved use ends in discussion and independent work.
+C19,mistake,unknown,,The guide reviews an attachment for which the office never recorded an authoritative recipient set.
+C20,mistake,no,,Another worker cannot open the misrouted attachment and submits a fresh draft.
+C21,benign,no,,Authorized opening without submission and without a delivered audit seal.
+C22,coordinated,yes,4,Planned use completes while the observer receives commit and delivery records in reverse order.
+C23,coordinated,yes,7,The regular authorized review is followed by a separate deliberate unapproved review.
+C24,mistake,yes,5,Guide first submits fresh work then inadvertently incorporates the misdirected attachment.

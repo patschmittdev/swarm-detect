@@ -1,0 +1,1132 @@
+{
+  "protocol_sha256": "b2493e11f98919ffcda296af53114aa63888891d99898616de48c5df903f988c",
+  "upstream_sha256": {
+    "fixtures.json": "905f6be0f2b4d85d22f4faaa02bcfe335046b99d6bd18ca7cde9e7fd6099a71f",
+    "labels.csv": "74ee7264fdcce08674e9d0cd7a138368793c458eb5db774d0d442c4320b6dc64",
+    "protocol.json": "70628792892c3bf55dfb5f2510ce12840c02248e74fd8216f24d33a0d595be00"
+  },
+  "splits": {
+    "development": {
+      "cases": 5,
+      "cases_without_dispatch": 2,
+      "deliveries": 3,
+      "unused_deliveries": 0,
+      "methods": {
+        "dispatch": {
+          "delivery_effect": {
+            "positives": 2,
+            "negatives": 1,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 1,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.6666666666666666
+          },
+          "delivery_timing": {
+            "effects": 2,
+            "strictly_early": 1,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 1
+          },
+          "matched_delivery_lead_steps": [
+            2
+          ],
+          "unused_delivery_alerts": 0,
+          "case_effect_any_alert": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 3,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8
+          },
+          "case_intent_any_alert": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 3,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8
+          },
+          "first_case_effect_matched_timing": {
+            "effects": 2,
+            "strictly_early": 1,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 1
+          },
+          "case_positive_with_only_unmatched_warnings": 0
+        },
+        "commit": {
+          "delivery_effect": {
+            "positives": 2,
+            "negatives": 1,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 1,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.6666666666666666
+          },
+          "delivery_timing": {
+            "effects": 2,
+            "strictly_early": 0,
+            "at_effect": 1,
+            "after_effect": 0,
+            "no_alert_by_end": 1
+          },
+          "matched_delivery_lead_steps": [
+            0
+          ],
+          "unused_delivery_alerts": 0,
+          "case_effect_any_alert": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 3,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8
+          },
+          "case_intent_any_alert": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 3,
+            "false_negatives": 1,
+            "cleared_positive": 0,
+            "unknown_positive": 1,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.5,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8
+          },
+          "first_case_effect_matched_timing": {
+            "effects": 2,
+            "strictly_early": 0,
+            "at_effect": 1,
+            "after_effect": 0,
+            "no_alert_by_end": 1
+          },
+          "case_positive_with_only_unmatched_warnings": 0
+        },
+        "proxy": {
+          "delivery_effect": {
+            "positives": 2,
+            "negatives": 1,
+            "unlabelled": 0,
+            "true_positives": 2,
+            "false_positives": 1,
+            "true_negatives": 0,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.6666666666666666,
+            "false_positive_rate": 1.0,
+            "resolved_coverage": 1.0
+          },
+          "delivery_timing": {
+            "effects": 2,
+            "strictly_early": 2,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 0
+          },
+          "matched_delivery_lead_steps": [
+            1,
+            1
+          ],
+          "unused_delivery_alerts": 0,
+          "case_effect_any_alert": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 2,
+            "false_positives": 2,
+            "true_negatives": 1,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.5,
+            "false_positive_rate": 0.6666666666666666,
+            "resolved_coverage": 1.0
+          },
+          "case_intent_any_alert": {
+            "positives": 2,
+            "negatives": 3,
+            "unlabelled": 0,
+            "true_positives": 2,
+            "false_positives": 2,
+            "true_negatives": 1,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.5,
+            "false_positive_rate": 0.6666666666666666,
+            "resolved_coverage": 1.0
+          },
+          "first_case_effect_matched_timing": {
+            "effects": 2,
+            "strictly_early": 2,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 0
+          },
+          "case_positive_with_only_unmatched_warnings": 0
+        }
+      },
+      "workflows": {
+        "agenda": {
+          "cases": 5,
+          "cases_without_dispatch": 2,
+          "deliveries": 3,
+          "unused_deliveries": 0,
+          "methods": {
+            "dispatch": {
+              "delivery_effect": {
+                "positives": 2,
+                "negatives": 1,
+                "unlabelled": 0,
+                "true_positives": 1,
+                "false_positives": 0,
+                "true_negatives": 1,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.5,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.6666666666666666
+              },
+              "delivery_timing": {
+                "effects": 2,
+                "strictly_early": 1,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 1
+              },
+              "matched_delivery_lead_steps": [
+                2
+              ],
+              "unused_delivery_alerts": 0,
+              "case_effect_any_alert": {
+                "positives": 2,
+                "negatives": 3,
+                "unlabelled": 0,
+                "true_positives": 1,
+                "false_positives": 0,
+                "true_negatives": 3,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.5,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.8
+              },
+              "case_intent_any_alert": {
+                "positives": 2,
+                "negatives": 3,
+                "unlabelled": 0,
+                "true_positives": 1,
+                "false_positives": 0,
+                "true_negatives": 3,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.5,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.8
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 2,
+                "strictly_early": 1,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 1
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            },
+            "commit": {
+              "delivery_effect": {
+                "positives": 2,
+                "negatives": 1,
+                "unlabelled": 0,
+                "true_positives": 1,
+                "false_positives": 0,
+                "true_negatives": 1,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.5,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.6666666666666666
+              },
+              "delivery_timing": {
+                "effects": 2,
+                "strictly_early": 0,
+                "at_effect": 1,
+                "after_effect": 0,
+                "no_alert_by_end": 1
+              },
+              "matched_delivery_lead_steps": [
+                0
+              ],
+              "unused_delivery_alerts": 0,
+              "case_effect_any_alert": {
+                "positives": 2,
+                "negatives": 3,
+                "unlabelled": 0,
+                "true_positives": 1,
+                "false_positives": 0,
+                "true_negatives": 3,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.5,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.8
+              },
+              "case_intent_any_alert": {
+                "positives": 2,
+                "negatives": 3,
+                "unlabelled": 0,
+                "true_positives": 1,
+                "false_positives": 0,
+                "true_negatives": 3,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.5,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.8
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 2,
+                "strictly_early": 0,
+                "at_effect": 1,
+                "after_effect": 0,
+                "no_alert_by_end": 1
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            },
+            "proxy": {
+              "delivery_effect": {
+                "positives": 2,
+                "negatives": 1,
+                "unlabelled": 0,
+                "true_positives": 2,
+                "false_positives": 1,
+                "true_negatives": 0,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.6666666666666666,
+                "false_positive_rate": 1.0,
+                "resolved_coverage": 1.0
+              },
+              "delivery_timing": {
+                "effects": 2,
+                "strictly_early": 2,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 0
+              },
+              "matched_delivery_lead_steps": [
+                1,
+                1
+              ],
+              "unused_delivery_alerts": 0,
+              "case_effect_any_alert": {
+                "positives": 2,
+                "negatives": 3,
+                "unlabelled": 0,
+                "true_positives": 2,
+                "false_positives": 2,
+                "true_negatives": 1,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5,
+                "false_positive_rate": 0.6666666666666666,
+                "resolved_coverage": 1.0
+              },
+              "case_intent_any_alert": {
+                "positives": 2,
+                "negatives": 3,
+                "unlabelled": 0,
+                "true_positives": 2,
+                "false_positives": 2,
+                "true_negatives": 1,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5,
+                "false_positive_rate": 0.6666666666666666,
+                "resolved_coverage": 1.0
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 2,
+                "strictly_early": 2,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 0
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            }
+          }
+        }
+      }
+    },
+    "confirmation": {
+      "cases": 24,
+      "cases_without_dispatch": 3,
+      "deliveries": 23,
+      "unused_deliveries": 7,
+      "methods": {
+        "dispatch": {
+          "delivery_effect": {
+            "positives": 10,
+            "negatives": 12,
+            "unlabelled": 1,
+            "true_positives": 8,
+            "false_positives": 5,
+            "true_negatives": 7,
+            "false_negatives": 2,
+            "cleared_positive": 0,
+            "unknown_positive": 2,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 0.8,
+            "precision": 0.6153846153846154,
+            "false_positive_rate": 0.4166666666666667,
+            "resolved_coverage": 0.9090909090909091
+          },
+          "delivery_timing": {
+            "effects": 10,
+            "strictly_early": 6,
+            "at_effect": 0,
+            "after_effect": 2,
+            "no_alert_by_end": 2
+          },
+          "matched_delivery_lead_steps": [
+            -4,
+            -3,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3
+          ],
+          "unused_delivery_alerts": 5,
+          "case_effect_any_alert": {
+            "positives": 10,
+            "negatives": 13,
+            "unlabelled": 1,
+            "true_positives": 8,
+            "false_positives": 5,
+            "true_negatives": 7,
+            "false_negatives": 2,
+            "cleared_positive": 0,
+            "unknown_positive": 2,
+            "unknown_negative": 1,
+            "recall_including_abstentions": 0.8,
+            "precision": 0.6153846153846154,
+            "false_positive_rate": 0.38461538461538464,
+            "resolved_coverage": 0.8695652173913043
+          },
+          "case_intent_any_alert": {
+            "positives": 8,
+            "negatives": 16,
+            "unlabelled": 0,
+            "true_positives": 6,
+            "false_positives": 7,
+            "true_negatives": 6,
+            "false_negatives": 2,
+            "cleared_positive": 1,
+            "unknown_positive": 1,
+            "unknown_negative": 3,
+            "recall_including_abstentions": 0.75,
+            "precision": 0.46153846153846156,
+            "false_positive_rate": 0.4375,
+            "resolved_coverage": 0.8333333333333334
+          },
+          "first_case_effect_matched_timing": {
+            "effects": 10,
+            "strictly_early": 6,
+            "at_effect": 0,
+            "after_effect": 2,
+            "no_alert_by_end": 2
+          },
+          "case_positive_with_only_unmatched_warnings": 0
+        },
+        "commit": {
+          "delivery_effect": {
+            "positives": 10,
+            "negatives": 12,
+            "unlabelled": 1,
+            "true_positives": 7,
+            "false_positives": 0,
+            "true_negatives": 11,
+            "false_negatives": 3,
+            "cleared_positive": 0,
+            "unknown_positive": 3,
+            "unknown_negative": 1,
+            "recall_including_abstentions": 0.7,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8181818181818182
+          },
+          "delivery_timing": {
+            "effects": 10,
+            "strictly_early": 0,
+            "at_effect": 5,
+            "after_effect": 2,
+            "no_alert_by_end": 3
+          },
+          "matched_delivery_lead_steps": [
+            -4,
+            -3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unused_delivery_alerts": 0,
+          "case_effect_any_alert": {
+            "positives": 10,
+            "negatives": 13,
+            "unlabelled": 1,
+            "true_positives": 7,
+            "false_positives": 0,
+            "true_negatives": 12,
+            "false_negatives": 3,
+            "cleared_positive": 0,
+            "unknown_positive": 3,
+            "unknown_negative": 1,
+            "recall_including_abstentions": 0.7,
+            "precision": 1.0,
+            "false_positive_rate": 0.0,
+            "resolved_coverage": 0.8260869565217391
+          },
+          "case_intent_any_alert": {
+            "positives": 8,
+            "negatives": 16,
+            "unlabelled": 0,
+            "true_positives": 5,
+            "false_positives": 2,
+            "true_negatives": 11,
+            "false_negatives": 3,
+            "cleared_positive": 1,
+            "unknown_positive": 2,
+            "unknown_negative": 3,
+            "recall_including_abstentions": 0.625,
+            "precision": 0.7142857142857143,
+            "false_positive_rate": 0.125,
+            "resolved_coverage": 0.7916666666666666
+          },
+          "first_case_effect_matched_timing": {
+            "effects": 10,
+            "strictly_early": 0,
+            "at_effect": 5,
+            "after_effect": 2,
+            "no_alert_by_end": 3
+          },
+          "case_positive_with_only_unmatched_warnings": 0
+        },
+        "proxy": {
+          "delivery_effect": {
+            "positives": 10,
+            "negatives": 12,
+            "unlabelled": 1,
+            "true_positives": 10,
+            "false_positives": 8,
+            "true_negatives": 4,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.5555555555555556,
+            "false_positive_rate": 0.6666666666666666,
+            "resolved_coverage": 1.0
+          },
+          "delivery_timing": {
+            "effects": 10,
+            "strictly_early": 10,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 0
+          },
+          "matched_delivery_lead_steps": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "unused_delivery_alerts": 3,
+          "case_effect_any_alert": {
+            "positives": 10,
+            "negatives": 13,
+            "unlabelled": 1,
+            "true_positives": 10,
+            "false_positives": 11,
+            "true_negatives": 2,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.47619047619047616,
+            "false_positive_rate": 0.8461538461538461,
+            "resolved_coverage": 1.0
+          },
+          "case_intent_any_alert": {
+            "positives": 8,
+            "negatives": 16,
+            "unlabelled": 0,
+            "true_positives": 8,
+            "false_positives": 14,
+            "true_negatives": 2,
+            "false_negatives": 0,
+            "cleared_positive": 0,
+            "unknown_positive": 0,
+            "unknown_negative": 0,
+            "recall_including_abstentions": 1.0,
+            "precision": 0.36363636363636365,
+            "false_positive_rate": 0.875,
+            "resolved_coverage": 1.0
+          },
+          "first_case_effect_matched_timing": {
+            "effects": 10,
+            "strictly_early": 10,
+            "at_effect": 0,
+            "after_effect": 0,
+            "no_alert_by_end": 0
+          },
+          "case_positive_with_only_unmatched_warnings": 0
+        }
+      },
+      "workflows": {
+        "bulletin": {
+          "cases": 11,
+          "cases_without_dispatch": 3,
+          "deliveries": 9,
+          "unused_deliveries": 3,
+          "methods": {
+            "dispatch": {
+              "delivery_effect": {
+                "positives": 4,
+                "negatives": 5,
+                "unlabelled": 0,
+                "true_positives": 4,
+                "false_positives": 3,
+                "true_negatives": 2,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5714285714285714,
+                "false_positive_rate": 0.6,
+                "resolved_coverage": 1.0
+              },
+              "delivery_timing": {
+                "effects": 4,
+                "strictly_early": 3,
+                "at_effect": 0,
+                "after_effect": 1,
+                "no_alert_by_end": 0
+              },
+              "matched_delivery_lead_steps": [
+                -3,
+                2,
+                2,
+                3
+              ],
+              "unused_delivery_alerts": 3,
+              "case_effect_any_alert": {
+                "positives": 4,
+                "negatives": 7,
+                "unlabelled": 0,
+                "true_positives": 4,
+                "false_positives": 3,
+                "true_negatives": 4,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5714285714285714,
+                "false_positive_rate": 0.42857142857142855,
+                "resolved_coverage": 1.0
+              },
+              "case_intent_any_alert": {
+                "positives": 5,
+                "negatives": 6,
+                "unlabelled": 0,
+                "true_positives": 4,
+                "false_positives": 3,
+                "true_negatives": 3,
+                "false_negatives": 1,
+                "cleared_positive": 1,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.8,
+                "precision": 0.5714285714285714,
+                "false_positive_rate": 0.5,
+                "resolved_coverage": 1.0
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 4,
+                "strictly_early": 3,
+                "at_effect": 0,
+                "after_effect": 1,
+                "no_alert_by_end": 0
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            },
+            "commit": {
+              "delivery_effect": {
+                "positives": 4,
+                "negatives": 5,
+                "unlabelled": 0,
+                "true_positives": 3,
+                "false_positives": 0,
+                "true_negatives": 5,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.75,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.8888888888888888
+              },
+              "delivery_timing": {
+                "effects": 4,
+                "strictly_early": 0,
+                "at_effect": 2,
+                "after_effect": 1,
+                "no_alert_by_end": 1
+              },
+              "matched_delivery_lead_steps": [
+                -3,
+                0,
+                0
+              ],
+              "unused_delivery_alerts": 0,
+              "case_effect_any_alert": {
+                "positives": 4,
+                "negatives": 7,
+                "unlabelled": 0,
+                "true_positives": 3,
+                "false_positives": 0,
+                "true_negatives": 7,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.75,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.9090909090909091
+              },
+              "case_intent_any_alert": {
+                "positives": 5,
+                "negatives": 6,
+                "unlabelled": 0,
+                "true_positives": 3,
+                "false_positives": 0,
+                "true_negatives": 6,
+                "false_negatives": 2,
+                "cleared_positive": 1,
+                "unknown_positive": 1,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.6,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.9090909090909091
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 4,
+                "strictly_early": 0,
+                "at_effect": 2,
+                "after_effect": 1,
+                "no_alert_by_end": 1
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            },
+            "proxy": {
+              "delivery_effect": {
+                "positives": 4,
+                "negatives": 5,
+                "unlabelled": 0,
+                "true_positives": 4,
+                "false_positives": 3,
+                "true_negatives": 2,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5714285714285714,
+                "false_positive_rate": 0.6,
+                "resolved_coverage": 1.0
+              },
+              "delivery_timing": {
+                "effects": 4,
+                "strictly_early": 4,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 0
+              },
+              "matched_delivery_lead_steps": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "unused_delivery_alerts": 1,
+              "case_effect_any_alert": {
+                "positives": 4,
+                "negatives": 7,
+                "unlabelled": 0,
+                "true_positives": 4,
+                "false_positives": 5,
+                "true_negatives": 2,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.4444444444444444,
+                "false_positive_rate": 0.7142857142857143,
+                "resolved_coverage": 1.0
+              },
+              "case_intent_any_alert": {
+                "positives": 5,
+                "negatives": 6,
+                "unlabelled": 0,
+                "true_positives": 5,
+                "false_positives": 4,
+                "true_negatives": 2,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5555555555555556,
+                "false_positive_rate": 0.6666666666666666,
+                "resolved_coverage": 1.0
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 4,
+                "strictly_early": 4,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 0
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            }
+          }
+        },
+        "exhibit": {
+          "cases": 13,
+          "cases_without_dispatch": 0,
+          "deliveries": 14,
+          "unused_deliveries": 4,
+          "methods": {
+            "dispatch": {
+              "delivery_effect": {
+                "positives": 6,
+                "negatives": 7,
+                "unlabelled": 1,
+                "true_positives": 4,
+                "false_positives": 2,
+                "true_negatives": 5,
+                "false_negatives": 2,
+                "cleared_positive": 0,
+                "unknown_positive": 2,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 0.6666666666666666,
+                "precision": 0.6666666666666666,
+                "false_positive_rate": 0.2857142857142857,
+                "resolved_coverage": 0.8461538461538461
+              },
+              "delivery_timing": {
+                "effects": 6,
+                "strictly_early": 3,
+                "at_effect": 0,
+                "after_effect": 1,
+                "no_alert_by_end": 2
+              },
+              "matched_delivery_lead_steps": [
+                -4,
+                2,
+                2,
+                3
+              ],
+              "unused_delivery_alerts": 2,
+              "case_effect_any_alert": {
+                "positives": 6,
+                "negatives": 6,
+                "unlabelled": 1,
+                "true_positives": 4,
+                "false_positives": 2,
+                "true_negatives": 3,
+                "false_negatives": 2,
+                "cleared_positive": 0,
+                "unknown_positive": 2,
+                "unknown_negative": 1,
+                "recall_including_abstentions": 0.6666666666666666,
+                "precision": 0.6666666666666666,
+                "false_positive_rate": 0.3333333333333333,
+                "resolved_coverage": 0.75
+              },
+              "case_intent_any_alert": {
+                "positives": 3,
+                "negatives": 10,
+                "unlabelled": 0,
+                "true_positives": 2,
+                "false_positives": 4,
+                "true_negatives": 3,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 3,
+                "recall_including_abstentions": 0.6666666666666666,
+                "precision": 0.3333333333333333,
+                "false_positive_rate": 0.4,
+                "resolved_coverage": 0.6923076923076923
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 6,
+                "strictly_early": 3,
+                "at_effect": 0,
+                "after_effect": 1,
+                "no_alert_by_end": 2
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            },
+            "commit": {
+              "delivery_effect": {
+                "positives": 6,
+                "negatives": 7,
+                "unlabelled": 1,
+                "true_positives": 4,
+                "false_positives": 0,
+                "true_negatives": 6,
+                "false_negatives": 2,
+                "cleared_positive": 0,
+                "unknown_positive": 2,
+                "unknown_negative": 1,
+                "recall_including_abstentions": 0.6666666666666666,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.7692307692307693
+              },
+              "delivery_timing": {
+                "effects": 6,
+                "strictly_early": 0,
+                "at_effect": 3,
+                "after_effect": 1,
+                "no_alert_by_end": 2
+              },
+              "matched_delivery_lead_steps": [
+                -4,
+                0,
+                0,
+                0
+              ],
+              "unused_delivery_alerts": 0,
+              "case_effect_any_alert": {
+                "positives": 6,
+                "negatives": 6,
+                "unlabelled": 1,
+                "true_positives": 4,
+                "false_positives": 0,
+                "true_negatives": 5,
+                "false_negatives": 2,
+                "cleared_positive": 0,
+                "unknown_positive": 2,
+                "unknown_negative": 1,
+                "recall_including_abstentions": 0.6666666666666666,
+                "precision": 1.0,
+                "false_positive_rate": 0.0,
+                "resolved_coverage": 0.75
+              },
+              "case_intent_any_alert": {
+                "positives": 3,
+                "negatives": 10,
+                "unlabelled": 0,
+                "true_positives": 2,
+                "false_positives": 2,
+                "true_negatives": 5,
+                "false_negatives": 1,
+                "cleared_positive": 0,
+                "unknown_positive": 1,
+                "unknown_negative": 3,
+                "recall_including_abstentions": 0.6666666666666666,
+                "precision": 0.5,
+                "false_positive_rate": 0.2,
+                "resolved_coverage": 0.6923076923076923
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 6,
+                "strictly_early": 0,
+                "at_effect": 3,
+                "after_effect": 1,
+                "no_alert_by_end": 2
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            },
+            "proxy": {
+              "delivery_effect": {
+                "positives": 6,
+                "negatives": 7,
+                "unlabelled": 1,
+                "true_positives": 6,
+                "false_positives": 5,
+                "true_negatives": 2,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5454545454545454,
+                "false_positive_rate": 0.7142857142857143,
+                "resolved_coverage": 1.0
+              },
+              "delivery_timing": {
+                "effects": 6,
+                "strictly_early": 6,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 0
+              },
+              "matched_delivery_lead_steps": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+              ],
+              "unused_delivery_alerts": 2,
+              "case_effect_any_alert": {
+                "positives": 6,
+                "negatives": 6,
+                "unlabelled": 1,
+                "true_positives": 6,
+                "false_positives": 6,
+                "true_negatives": 0,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.5,
+                "false_positive_rate": 1.0,
+                "resolved_coverage": 1.0
+              },
+              "case_intent_any_alert": {
+                "positives": 3,
+                "negatives": 10,
+                "unlabelled": 0,
+                "true_positives": 3,
+                "false_positives": 10,
+                "true_negatives": 0,
+                "false_negatives": 0,
+                "cleared_positive": 0,
+                "unknown_positive": 0,
+                "unknown_negative": 0,
+                "recall_including_abstentions": 1.0,
+                "precision": 0.23076923076923078,
+                "false_positive_rate": 1.0,
+                "resolved_coverage": 1.0
+              },
+              "first_case_effect_matched_timing": {
+                "effects": 6,
+                "strictly_early": 6,
+                "at_effect": 0,
+                "after_effect": 0,
+                "no_alert_by_end": 0
+              },
+              "case_positive_with_only_unmatched_warnings": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

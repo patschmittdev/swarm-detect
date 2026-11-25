@@ -1,0 +1,115 @@
+{
+  "condition": "single",
+  "expected_subagents": null,
+  "observed": {
+    "127.0.0.1": {
+      "distinct_token_ids": 1,
+      "requests": 94
+    },
+    "127.0.0.2": {
+      "distinct_token_ids": 16,
+      "requests": 96
+    },
+    "ambiguous_tokens": [],
+    "tokens": {
+      "174de4cd9e2d": [
+        "127.0.0.2"
+      ],
+      "450851086916": [
+        "127.0.0.1"
+      ],
+      "4b49fe3b42ca": [
+        "127.0.0.2"
+      ],
+      "4c444b4aefc8": [
+        "127.0.0.2"
+      ],
+      "513b5eaf7dad": [
+        "127.0.0.2"
+      ],
+      "55ec7bc46707": [
+        "127.0.0.2"
+      ],
+      "5a7f0e8fbff5": [
+        "127.0.0.2"
+      ],
+      "5bf14b5b5b0f": [
+        "127.0.0.2"
+      ],
+      "647d3b4cf78e": [
+        "127.0.0.2"
+      ],
+      "79df8b5e80ce": [
+        "127.0.0.2"
+      ],
+      "92549d443a4e": [
+        "127.0.0.2"
+      ],
+      "cc0b77906266": [
+        "127.0.0.2"
+      ],
+      "cd0e5445be67": [
+        "127.0.0.2"
+      ],
+      "d825386df54a": [
+        "127.0.0.2"
+      ],
+      "eee44ffbcff2": [
+        "127.0.0.2"
+      ],
+      "fc1007e32f15": [
+        "127.0.0.2"
+      ],
+      "fd52c49a4017": [
+        "127.0.0.2"
+      ]
+    }
+  },
+  "participation": {
+    "cross_process_note_reads": 0,
+    "group_formed": null,
+    "negative_contaminated": null,
+    "processes": [
+      {
+        "address": "127.0.0.1",
+        "cross_process_note_reads": 0,
+        "doc_reads": 80,
+        "index": 0,
+        "note_writes": 1,
+        "requests": 94,
+        "subagents_completed": null,
+        "subagents_spawned": null,
+        "worked": true
+      }
+    ]
+  },
+  "positive": false,
+  "positive_means": "assigned to a coordination condition by the harness",
+  "processes": [
+    {
+      "address": "127.0.0.1",
+      "client": null,
+      "group_id": "p0",
+      "index": 0,
+      "kind": "agent",
+      "launcher": "codex",
+      "model": "gpt-6.2-sol",
+      "native_subagents": 0,
+      "requested_launcher": "codex",
+      "task_id": "orphans"
+    },
+    {
+      "address": "127.0.0.2",
+      "client": "browsing_users",
+      "group_id": "background",
+      "index": 1,
+      "kind": "scripted",
+      "launcher": "scripted",
+      "model": null,
+      "native_subagents": 0,
+      "requested_launcher": null,
+      "task_id": null
+    }
+  ],
+  "run_id": "test-12"
+}
